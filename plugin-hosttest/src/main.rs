@@ -11,6 +11,9 @@ mod db;
 mod job;
 #[path = "../../plugin/src/set.rs"]
 mod set;
+#[path = "../../plugin/src/prompts.rs"]
+#[allow(dead_code)]
+mod prompts;
 mod generated {
     #[path = "../../../plugin/src/generated/data.rs"]
     pub mod data;
@@ -609,6 +612,43 @@ fn main() {
             fails += 1;
         }
         db.set_inv(db::Inv::default());
+    }
+    // 11. Key pictures: SDL3 joined names and older spaced names find the same picture; side buttons and wheel have one
+    {
+        let ui = std::path::Path::new(env!("CARGO_MANIFEST_DIR")).join("../assets/ui");
+        let mut ok = true;
+        for (key, want) in [
+            ("PageUp", "kbm-page-up"),
+            ("Page Up", "kbm-page-up"),
+            ("PageDown", "kbm-page-down"),
+            ("CapsLock", "kbm-caps-lock"),
+            ("Left Shift", "kbm-left-shift"),
+            ("Mouse 4", "kbm-mouse-4"),
+            ("Mouse 5", "kbm-mouse-5"),
+            ("Wheel Up", "kbm-wheel-up"),
+            ("Wheel Down", "kbm-wheel-down"),
+            ("Keypad +", "kbm-keypad-plus"),
+            ("-", "kbm-minus"),
+            ("F12", "kbm-f12"),
+        ] {
+            let got = prompts::key_sprite(key);
+            let exists = ui.join(format!("{got}.png")).exists();
+            if got != want || !exists {
+                println!("  실패: 키 그림 {key:?} -> {got} (그림 있음={exists})");
+                ok = false;
+            }
+        }
+        for (key, want) in [("PageDown", "PGD"), ("Mouse 5", "M5"), ("Wheel Up", "W↑"), ("PrintScreen", "PRI")] {
+            let got = prompts::key_label(key);
+            if got != want {
+                println!("  실패: 키 글자 {key:?} -> {got}");
+                ok = false;
+            }
+        }
+        println!("키 그림 이름: {}", if ok { "맞음" } else { "틀림" });
+        if !ok {
+            fails += 1;
+        }
     }
     println!("{}", if fails == 0 { "모두 통과" } else { "실패 있음" });
     std::process::exit(if fails == 0 { 0 } else { 1 });

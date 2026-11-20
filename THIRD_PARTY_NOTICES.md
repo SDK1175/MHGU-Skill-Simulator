@@ -46,9 +46,14 @@ SOFTWARE.
 The keyboard, mouse and controller button pictures in `assets/ui/` (`kbm-*.png`, `Nintendo-*.png`, `Xbox-*.png`,
 `PlayStation-*.png`) are from Kenney Input Prompts (https://kenney.nl), released under CC0.
 
-## Game data
+## Game data and game art
 
-Monster Hunter Generations Ultimate is © CAPCOM. Equipment, skill, item and quest names, the numbers in `data/` and
-`plugin/src/generated/`, and the part, weapon, charm, decoration and item icons in `assets/ui/` come from the game and
-remain the property of their owner. They are included only so the mod can show the game's own names and icons; this
-project is not affiliated with or endorsed by CAPCOM.
+Monster Hunter Generations Ultimate is © CAPCOM. Equipment, skill, item and quest names and the numbers in `data/` and
+`plugin/src/generated/` come from the game and remain the property of their owner.
+
+The part, weapon, charm, decoration and item icons in `assets/ui/` are the game's UI art as found in the "HD Layout" UI
+pack (cut from the atlas MHGU-Wishlist extracted from it, see `assets/ui/source.json`). The author and redistribution
+terms of that pack have not been confirmed yet.
+
+These are included only so the mod can show the game's own names and icons; no license is granted for them here, and
+this project is not affiliated with or endorsed by CAPCOM.

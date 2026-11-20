@@ -99,6 +99,11 @@ MAP.update({
     'mouse-left': 'mouse_left',
     'mouse-right': 'mouse_right',
     'mouse-middle': 'mouse_scroll',
+    # Side buttons and wheel notches ([Keybinds] names "Mouse 4" / "Mouse 5" / "Wheel Up" / "Wheel Down")
+    'mouse-4': 'mouse_side_back',
+    'mouse-5': 'mouse_side_forward',
+    'wheel-up': 'mouse_scroll_up',
+    'wheel-down': 'mouse_scroll_down',
 })
 
 

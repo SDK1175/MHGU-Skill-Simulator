@@ -273,8 +273,23 @@ fn kbm_prompt(c: &Config, b: Button) -> Prompt {
     }
 }
 
-/// Atlas picture name of a key: "kbm-" + the name in lower case, spaces as '-', punctuation as words
-/// ("Left Shift" -> "kbm-left-shift", "-" -> "kbm-minus"). Pictures: tools/import_kenney_icons.py
+/// A key name as lower-case words: SDL3 writes some names joined ("PageUp", "CapsLock"), older ones spaced
+/// ("Page Up"). A capital after a small letter starts a new word, so both become "page up".
+fn key_words(key: &str) -> String {
+    let mut out = String::new();
+    let mut prev_lower = false;
+    for ch in key.trim().chars() {
+        if ch.is_ascii_uppercase() && prev_lower {
+            out.push(' ');
+        }
+        prev_lower = ch.is_ascii_lowercase();
+        out.push(ch.to_ascii_lowercase());
+    }
+    out
+}
+
+/// Atlas picture name of a key: "kbm-" + the name in lower-case words joined by '-', punctuation as words
+/// ("Left Shift" -> "kbm-left-shift", "PageUp" -> "kbm-page-up", "-" -> "kbm-minus"). Pictures: tools/import_kenney_icons.py
 pub fn key_sprite(key: &str) -> String {
     let key = key.trim();
     let word = match key {
@@ -296,8 +311,8 @@ pub fn key_sprite(key: &str) -> String {
     match word {
         Some(w) => s.push_str(w),
         None => {
-            for ch in key.chars() {
-                s.push(if ch == ' ' { '-' } else { ch.to_ascii_lowercase() });
+            for ch in key_words(key).chars() {
+                s.push(if ch == ' ' { '-' } else { ch });
             }
         }
     }
@@ -306,7 +321,7 @@ pub fn key_sprite(key: &str) -> String {
 
 /// Short text for a key without a picture (about 3 letters at most)
 pub fn key_label(key: &str) -> String {
-    let lower = key.trim().to_ascii_lowercase();
+    let lower = key_words(key);
     let short = match lower.as_str() {
         "up" => "↑",
         "down" => "↓",
@@ -326,6 +341,10 @@ pub fn key_label(key: &str) -> String {
         "mouse left" => "LMB",
         "mouse right" => "RMB",
         "mouse middle" => "MMB",
+        "mouse 4" => "M4",
+        "mouse 5" => "M5",
+        "wheel up" => "W↑",
+        "wheel down" => "W↓",
         _ => {
             let t = key.trim();
             let t: String = t.strip_prefix("Keypad ").unwrap_or(t).chars().filter(|c| *c != ' ').collect();

@@ -3,7 +3,7 @@
 #   bash tools/build_plugin.sh
 # Output: dist/MHGU-Skill-Simulator/romfs/nativeNX/plugins/
 #         skill_simulator.nro
-#         skill-simulator/{font.otf, atlas.rgba, names.<language>.bin, NOTO_LICENSE.txt}
+#         skill-simulator/{font.otf, atlas.rgba, names.<language>.bin, NOTO_LICENSE.txt, LICENSE.txt, THIRD_PARTY_NOTICES.md}
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 # Paths specific to my PC (devkitARM, game install folders) live in tools/local.sh, which is not committed.
@@ -53,6 +53,9 @@ rm -rf "$ROOT/dist/MHGU-Skill-Simulator"
 mkdir -p "$OUT/skill-simulator"
 cp skill_simulator.nro "$OUT/"
 cp assets/font.otf assets/atlas.rgba assets/names.*.bin assets/NOTO_LICENSE.txt "$OUT/skill-simulator/"
+# License of the mod and notices for forge-rs, Noto, mhxx-rng, Kenney and the game data travel with the release
+cp "$ROOT/LICENSE" "$OUT/skill-simulator/LICENSE.txt"
+cp "$ROOT/THIRD_PARTY_NOTICES.md" "$OUT/skill-simulator/"
 echo "설치 폴더: $ROOT/dist/MHGU-Skill-Simulator"
 
 # Installs to MODS_DIR (Recomp) and RYUJINX_MODS_DIR (Ryujinx) from tools/local.sh. NO_INSTALL=1 to skip.

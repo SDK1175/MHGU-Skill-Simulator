@@ -47,7 +47,9 @@ mods/
             └── plugins/
                 ├── skill_simulator.nro
                 └── skill-simulator/
+                    ├── LICENSE.txt
                     ├── NOTO_LICENSE.txt
+                    ├── THIRD_PARTY_NOTICES.md
                     ├── atlas.rgba
                     ├── font.otf
                     └── names.en.bin … names.es.bin
