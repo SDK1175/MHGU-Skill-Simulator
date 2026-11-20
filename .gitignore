@@ -1,0 +1,31 @@
+# Build output
+target/
+target-*/
+/dist/
+/plugin/*.nro
+/plugin/*.zip
+
+# Settings for this PC only (copy tools/local.example.sh)
+/tools/local.sh
+
+# Local preview program (not published) and its launcher
+/preview/
+/Preview.cmd
+# Design notes and requests for other mods: kept locally, not published
+/docs/
+
+# Caches
+/tools/.gamedb_cache.json
+__pycache__/
+*.py[cod]
+
+# Editors and OS
+.vs/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
+*.tmp
+*.bak

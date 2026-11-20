@@ -1,0 +1,23 @@
+[package]
+name = "mhgu-forge-macros"
+version.workspace = true
+edition.workspace = true
+description = "Procedural macros for forge plugins"
+license.workspace = true
+repository.workspace = true
+keywords = ["forge", "nro", "switch", "mhgu", "macros"]
+categories = ["no-std", "game-engines"]
+
+[lib]
+name = "forge_macros"
+proc-macro = true
+
+[features]
+imgui = []
+config = []
+
+[dependencies]
+proc-macro2 = "1"
+proc-macro-crate = "3"
+quote = "1"
+syn = { version = "2", features = ["full", "visit-mut"] }

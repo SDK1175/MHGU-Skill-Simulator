@@ -1,0 +1,205 @@
+1	Torso Up	몸통 계통 배가
+2	Poison	독
+3	Paralysis	마비
+4	Sleep	수면
+5	Stun	기절
+6	Hearing	청각보호
+7	Wind Res	풍압
+8	Tremor Res	내진
+9	Bind Res	오뚝이
+10	Heat Res	내서
+11	Cold Res	내한
+12	ColdBlooded	한랭 적응
+13	HotBlooded	염열 적응
+14	Anti-Theft	도둑질 무효
+15	Def Lock	항방어DOWN
+16	Frenzy Res	광격 내성
+17	Biology	세균학
+18	Bleeding	열상
+19	Attack	공격
+20	Defense	방어
+21	Health	체력
+22	Fire Res	화내성
+23	Water Res	수내성
+24	Thunder Res	뇌내성
+25	Ice Res	빙내성
+26	Dragon Res	용내성
+27	Blight Res	속성 내성
+28	Fire Atk	화속성 공격
+29	Water Atk	수속성 공격
+30	Thunder Atk	뇌속성 공격
+31	Ice Atk	빙속성 공격
+32	Dragon Atk	용속성 공격
+33	Elemental	속성 공격
+34	Status	특수 공격
+35	Sharpener	연마사
+36	Handicraft	장인
+37	Sharpness	베는맛
+38	Fencing	검술
+39	Grinder	연마술
+40	Blunt	둔기
+41	Crit Draw	발도 회심
+42	Punish Draw	발도 감기
+43	Sheathing	납도
+44	Sheathe Sharpen	납도 연마
+45	Bladescale	칼비늘
+46	Reload Spd	장전 속도
+47	Recoil	반동
+48	Precision	정밀 사격
+49	Normal Up	통상탄 강화
+50	Pierce Up	관통탄 강화
+51	Pellet Up	산탄 강화
+52	Heavy Up	중격탄 강화
+53	Normal S+	통상탄 추가
+54	Pierce S+	관통탄 추가
+55	Pellet S+	산탄 추가
+56	Crag S+	유탄 추가
+57	Clust S+	확산탄 추가
+58	Poison C+	독병 추가
+59	Para C+	마비병 추가
+60	Sleep C+	수면병 추가
+61	Power C+	강격병 추가
+62	Elem C+	속강병 추가
+63	C.Range C+	접격병 추가
+64	Exhaust C+	감기병 추가
+65	Blast C+	폭파병 추가
+66	Rapid Fire	속사
+67	Dead Eye	사격법
+68	Loading	장전 수
+69	Haphazard	변칙 사격
+70	Ammo Saver	탄약 절약
+71	Expert	달인
+72	Tenderizer	통격
+73	Chain Crit	연격
+74	Crit Status	특수 회심
+75	Crit Element	속성 회심
+76	Critical Up	회심 강화
+77	Negative Crit	뒷회심
+78	FastCharge	차지 단축
+79	Stamina	스태미나
+80	Constitution	체술
+81	Stam Recov	기력 회복
+82	Distance Runner	지속 주행
+83	Evasion	회피 성능
+84	Evade Dist	회피 거리
+85	Bubble	포말
+86	Guard	가드 성능
+87	Guard Up	가드 강화
+88	KO	KO
+89	Stam Drain	감기 공격
+90	Maestro	피리
+91	Artillery	포술
+92	Destroyer	중격
+93	Bomb Boost	폭탄 강화
+94	Gloves Off	잠재력
+95	Spirit	투혼
+96	Unscathed	건강제일
+97	Chance	찬스
+98	Dragon Spirit	용기
+99	Potential	저력
+100	Survivor	역경
+101	Furor	역상
+102	Crisis	궁지
+103	Guts	근성
+104	Sense	기척
+105	Team Player	지시
+106	TeamLeader	호령
+107	Mounting	탑승
+108	Vault	도약
+109	Insight	무심
+110	Endurance	인내
+111	Prolong SP	ＳＰ연장
+112	Psychic	천리안
+113	Perception	관찰안
+114	Ranger	헌터
+115	Transporter	운반
+116	Protection	가호
+117	Hero Shield	영웅의 방패
+118	Rec Level	회복량
+119	Rec Speed	회복 속도
+120	Lasting Pwr	효과 지속
+121	Wide-Range	광역
+122	Hunger	허기
+123	Gluttony	먹보
+124	Eating	식사
+125	Light Eater	절식
+126	Carnivore	육식
+127	Mycology	버섯식사
+128	Botany	야생초 지식
+129	Combo Rate	조합 성공률
+130	Combo Plus	조합 수
+131	Speed Setup	고속 설치
+132	Gathering	채집
+133	Honey	벌꿀
+134	Charmer	호석왕
+135	Whim	변덕
+136	Fate	운기
+137	Carving	갈무리
+138	Capturer	포획
+139	Bherna	베르나
+140	Kokoto	코코트
+141	Pokke	폿케
+142	Yukumo	유쿠모
+143	Soaratorium	용식선
+144	Flying Pub	비행주점
+145	Redhelm	홍두
+146	Snowbaron	대설주
+147	Stonefist	모쇄
+148	Drilltusk	암천
+149	Dreadqueen	자독희
+150	C.beard	보전
+151	Silverwind	백질풍
+152	Deadeye	척안
+153	Dreadking	흑염왕
+154	Thunderlord	금뇌공
+155	Grimclaw	황구조
+156	Hellblade	신멸인
+157	Nightcloak	농은
+158	Rustrazor	개열
+159	Soulseer	천안
+160	Boltreaver	청전주
+161	Elderfrost	은령
+162	Bloodbath	오마
+163	Redhelm X	진・홍두
+164	Snowbaron X	진・대설주
+165	Stonefist X	진・모쇄
+166	Drilltusk X	진・암천
+167	Dreadqueen X	진・자독희
+168	Crystalbeard X	진・보전
+169	Silverwind X	진・백질풍
+170	Deadeye X	진・척안
+171	Dreadking X	진・흑염왕
+172	Thunderlord X	진・금뇌공
+173	Grimclaw X	진・황구조
+174	Hellblade X	진・신멸인
+175	Nightcloak X	진・농은
+176	Rustrazor X	진・개열
+177	Soulseer X	진・천안
+178	Boltreaver X	진・청전주
+179	Elderfrost X	진・은령
+180	Bloodbath X	진・오마
+181	D. Fencing	북진낫토류
+182	Edge Lore	참격술
+183	PowerEater	식욕
+184	Mechanic	직공
+185	Brawn	강완
+186	Prayer	기원
+187	Covert	비밀공작
+188	Edgemaster	도공
+189	SteadyHand	사수
+190	Status Res	상태내성
+191	Fury	분노
+192	Nimbleness	회피술
+193	Readiness	거합
+194	Resilience	완강
+195	Brutality	강격
+196	Stalwart	실드
+197	Prudence	결벽
+198	Amplify	증폭
+199	Hoarding	호석수집
+200	Avarice	재물운
+201	Anti-Kushala	대 강룡
+202	Anti-Chameleos	대 하룡
+203	Anti-Teostra	대 염룡
+204	Secret Arts	비술
+205	Talisman Boost	호석강화

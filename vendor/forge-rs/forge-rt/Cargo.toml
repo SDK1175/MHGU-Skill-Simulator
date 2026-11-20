@@ -1,0 +1,19 @@
+[package]
+name = "mhgu-forge-rt"
+version.workspace = true
+edition.workspace = true
+description = "NRO runtime startup (MOD0 Header, init/fini, etc.) for forge plugins"
+license.workspace = true
+repository.workspace = true
+keywords = ["forge", "nro", "switch", "mhgu", "no-std"]
+categories = ["no-std", "game-engines", "embedded"]
+
+[features]
+logging = ["dep:mhgu-forge-sys"]
+
+[dependencies]
+mhgu-forge-sys = { workspace = true, optional = true }
+
+[lib]
+name = "forge_rt"
+path = "src/lib.rs"

@@ -1,0 +1,19 @@
+[package]
+name = "skill-simulator"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib"]
+test = false
+doctest = false
+
+[dependencies]
+# Vendored copy of forge-rs f2af062 with heap counters in its allocator (see vendor/forge-rs/VENDORED.md)
+mhgu-forge = { path = "../vendor/forge-rs/forge", default-features = false, features = ["imgui", "mt"] }
+skillsim-engine = { path = "../engine" }
+
+[profile.release]
+lto = true
+codegen-units = 1
+opt-level = 3

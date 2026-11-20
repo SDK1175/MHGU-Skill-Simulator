@@ -1,0 +1,133 @@
+"""Database/mhxx_all_tables.json -> data/simdata.bin (+ human-readable name TSV).
+
+Only simdata.bin goes into the plugin/engine. The TSV is for PC benchmark output.
+
+simdata.bin (little-endian)
+  magic  8s  "MHSS0005"
+  counts HHH  skills, armor, jewels
+  skill  HHb x            skill_id, tree, threshold
+  armor  HBBBBBB HH 4*(Hbx) 5b x   id, part(0..4), kind, sex, rare, slots, flags, def, maxdef, skills,
+                                   Resistances (fire, water, thunder, ice, dragon)
+         flags: 1 = needs arena coins, 2 = needs event (collaboration) coins
+  jewel  HBB Hbx Hbx      item_id, size, rank (1 low, 2 high, 3 G), positive(tree,pt), negative(tree,pt)
+  charm  B                number of charm kinds, then per kind
+         BBB x            second skill threshold, first candidate count, second candidate count
+         n1 * HBB         tree, min, max
+         n2 * HBB         tree, max magnitude when negative, max positive
+         20 * BBB         slot roll thresholds for fill values 1-20
+"""
+import json
+import struct
+import sys
+from collections import defaultdict
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[2]
+SRC = ROOT / "Database" / "mhxx_all_tables.json"
+OUT = Path(__file__).resolve().parents[1] / "data"
+
+
+def main() -> int:
+    db = json.loads(SRC.read_text(encoding="utf-8"))
+    OUT.mkdir(exist_ok=True)
+
+    armor_skills = defaultdict(list)
+    for row in db["DB_SklTreetoAmr"]:
+        armor_skills[row["Amr_ID"]].append((row["SklTree_ID"], row["Pt"]))
+
+    # Armor using coins as materials. Coins named after monsters are arena coins; others are event quest rewards.
+    arena_coins = {"푸루푸루", "가라라", "레우스", "케차", "가노스", "브라키", "게료스", "도스",
+                   "가루루가", "간킨", "레기오스", "카브라", "바바", "혼즈", "할아버지"}
+    coin_flag = {}
+    for row in db["ID_Itm_Name"]:
+        ko = row["Itm_Name_4"] or ""
+        if ko.endswith("코인"):
+            coin_flag[row["Itm_ID"]] = 1 if ko[:-2].strip() in arena_coins else 2
+    armor_flags = defaultdict(int)
+    for row in db["DB_ItmtoAmr"]:
+        armor_flags[row["Amr_ID"]] |= coin_flag.get(row["Itm_ID"], 0)
+
+    blob = bytearray()
+    skills = sorted(db["DB_Skl"], key=lambda r: r["Skl_ID"])
+    armor = sorted(db["DB_Amr"], key=lambda r: r["Amr_ID"])
+
+    # Different recipes of the same item have the same effect, so merge them.
+    # Lowest rank where each material is obtainable. Special (title) ranks fold into high/G rank.
+    fold = {1: 1, 2: 2, 3: 3, 10: 3, 11: 3, 12: 3}
+    item_rank = {}
+    for table in ("DB_ItmtoMon", "DB_ItmtoLoc"):
+        for row in db[table]:
+            rank = fold.get(row["Rank_ID"], 2)
+            item_rank[row["Itm_ID"]] = min(item_rank.get(row["Itm_ID"], 9), rank)
+    recipe = defaultdict(list)
+    for row in db["DB_ItmtoJew"]:
+        recipe[row["Jew_ID"]].append(row["Itm_ID"])
+
+    jewels = {}
+    for row in db["DB_Jew"]:
+        # Rank of a recipe = the highest rank among its materials. Materials without source info (combinations etc.) count as low rank.
+        rank = max([item_rank.get(i, 1) for i in recipe[row["Jew_ID"]]] or [1])
+        pos = (row["SklTree1_ID"], row["SklTree1_Pt"])
+        neg = (row["SklTree2_ID"] or 0, row["SklTree2_Pt"] or 0)
+        if pos[1] <= 0 or neg[1] > 0:
+            raise SystemExit(f"예상 밖의 장식품 구성: {row}")
+        if neg[0] <= 0:
+            neg = (0, 0)
+        key = (row["Itm_ID"], row["Slot"], pos, neg)
+        jewels[key] = min(jewels.get(key, 9), rank)     # With several recipes, the easiest one
+    jewels = sorted(jewels.items())
+
+    blob += struct.pack("<8sHHH", b"MHSS0005", len(skills), len(armor), len(jewels))
+    for row in skills:
+        blob += struct.pack("<HHbx", row["Skl_ID"], row["SklTree_ID"], row["Pt"])
+    for row in armor:
+        pts = armor_skills[row["Amr_ID"]]
+        if len(pts) > 4:
+            raise SystemExit(f"스킬이 4개를 넘는 방어구: {row['Amr_ID']}")
+        blob += struct.pack(
+            "<HBBBBBBHH",
+            row["Amr_ID"], row["Part"] - 1, row["BorG"], row["MorF"],
+            row["Rare"], row["Slot"], armor_flags[row["Amr_ID"]], row["Def"], row["MaxDef"],
+        )
+        for tree, pt in pts + [(0, 0)] * (4 - len(pts)):
+            blob += struct.pack("<Hbx", tree, pt)
+        blob += struct.pack("<5bx", row["Res_Fire"], row["Res_Water"], row["Res_Thunder"],
+                            row["Res_Ice"], row["Res_Dragon"])
+    for (item, size, pos, neg), rank in jewels:
+        blob += struct.pack("<HBBHbxHbx", item, size, rank, pos[0], pos[1], neg[0], neg[1])
+    charm_table = json.loads(Path(__file__).with_name("charm_table.json").read_text(encoding="utf-8"))
+    blob += struct.pack("<B", len(charm_table["kinds"]))
+    for kind in charm_table["kinds"]:
+        blob += struct.pack("<BBBx", kind["second_threshold"], len(kind["first"]), len(kind["second"]))
+        for tree, lo, hi in kind["first"] + kind["second"]:
+            blob += struct.pack("<HBB", tree, lo, hi)
+        for row in kind["slot_table"]:
+            blob += struct.pack("<BBB", *row)
+    (OUT / "simdata.bin").write_bytes(blob)
+
+    def names(table, key, prefix):
+        return {r[key]: (r[f"{prefix}_0"] or "", r[f"{prefix}_4"] or "") for r in db[table]}
+
+    skill_names = names("ID_Skl_Name", "Skl_ID", "Skl_Name")
+    tree_names = names("ID_SklTree_Name", "SklTree_ID", "SklTree_Name")
+    armor_names = names("ID_Amr_Name", "Amr_ID", "Amr_Name")
+    item_names = names("ID_Itm_Name", "Itm_ID", "Itm_Name")
+
+    def tsv(name, rows):
+        text = "\n".join("\t".join(str(c) for c in row) for row in rows) + "\n"
+        (OUT / name).write_text(text, encoding="utf-8")
+
+    tsv("skills.tsv", [(r["Skl_ID"], r["SklTree_ID"], r["Pt"], *skill_names[r["Skl_ID"]]) for r in skills])
+    tsv("trees.tsv", [(k, *v) for k, v in sorted(tree_names.items()) if k > 0])
+    tsv("armor.tsv", [(r["Amr_ID"], *armor_names[r["Amr_ID"]]) for r in armor])
+    tsv("jewels.tsv", [(j[0][0], *item_names[j[0][0]]) for j in jewels])
+    print("arena armor", sum(1 for v in armor_flags.values() if v & 1),
+          "event-coin armor", sum(1 for v in armor_flags.values() if v & 2))
+    print("jewel ranks", {r: sum(1 for j in jewels if j[1] == r) for r in (1, 2, 3)})
+
+    print(f"skills {len(skills)}  armor {len(armor)}  jewels {len(jewels)}  -> {len(blob)} bytes")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

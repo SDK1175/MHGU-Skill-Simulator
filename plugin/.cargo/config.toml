@@ -1,0 +1,16 @@
+[build]
+target = "armv7a-none-eabi.json"
+
+[unstable]
+build-std = ["core", "alloc"]
+build-std-features = ["compiler-builtins-mem"]
+json-target-spec = true
+
+# ARM32 NRO linker configuration.
+[target.armv7a-none-eabi]
+rustflags = [
+    "-C", "link-arg=-Tlink/switch32.ld",
+    "-C", "link-arg=-Wl,--build-id=sha1",
+    # Do not emit packed saturating ops (uqadd8 etc.) that Recomp rejects, since the engine is built at opt-level 3.
+    "-C", "target-feature=-dsp",
+]

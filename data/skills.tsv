@@ -1,0 +1,327 @@
+1	1	1	Torso Up	몸통 계통 배가
+2	2	10	Negate Poison	독 무효
+3	2	-10	Double Poison	독 배가
+4	3	10	Negate Paralysis	마비 무효
+5	3	-10	Double Paralysis	마비 배가
+6	4	10	Negate Sleep	수면 무효
+7	4	-10	Double Sleep	수면 배가
+8	5	15	Negate Stun	기절 무효
+9	5	10	Halve Stun	기절 확률 반감
+10	5	-10	Double Stun	기절 배가
+11	6	15	HG Earplugs	고급 귀마개
+12	6	10	Earplugs	귀마개
+13	7	15	Windproof (Hi)	풍압【대】무효
+14	7	10	Windproof (Lo)	풍압【소】무효
+15	8	10	Tremor Res	내진
+16	9	10	Negate Bind	오뚝이 무효
+17	10	10	Heat Cancel	더위 무효
+18	10	-10	Heat Surge	더위 배가
+19	11	10	Cold Cancel	추위 무효
+20	11	-10	Cold Surge	추위 배가
+21	12	10	Polar Hunter	북풍의 사냥꾼
+22	13	10	Tropic Hunter	남풍의 사냥꾼
+23	14	10	Anti-Theft	도둑질 무효
+24	15	10	Iron Skin	철면피
+25	16	10	Antivirus	무아의 경지
+26	17	15	Bio Master	바이오 닥터
+27	17	10	Bio Researcher	세균 연구가
+28	18	10	Negate Bleeding	열상 무효
+29	18	-10	Double Bleeding	열상 배가
+30	19	20	Attack Up (L)	공격력UP【대】
+31	19	15	Attack Up (M)	공격력UP【중】
+32	19	10	Attack Up (S)	공격력UP【소】
+33	19	-10	Attack Down (S)	공격력DOWN【소】
+34	19	-15	Attack Down (M)	공격력DOWN【중】
+35	19	-20	Attack Down (L)	공격력DOWN【대】
+36	20	20	Defense Up (L)	방어력UP【대】
+37	20	15	Defense Up (M)	방어력UP【중】
+38	20	10	Defense Up (S)	방어력UP【소】
+39	20	-10	Defense Down (S)	방어력DOWN【소】
+40	20	-15	Defense Down (M)	방어력DOWN【중】
+41	20	-20	Defense Down (L)	방어력DOWN【대】
+42	21	15	Health +50	체력+50
+43	21	10	Health +20	체력+20
+44	21	-10	Health -10	체력-10
+45	21	-15	Health -30	체력-30
+46	22	15	Fire Res +20	화내성【대】
+47	22	10	Fire Res +15	화내성【소】
+48	22	-10	Fire Res -20	화내성 약화
+49	23	15	Water Res +20	수내성【대】
+50	23	10	Water Res +15	수내성【소】
+51	23	-10	Water Res -20	수내성 약화
+52	24	15	Thunder Res +20	뇌내성【대】
+53	24	10	Thunder Res +15	뇌내성【소】
+54	24	-10	Thunder Res -20	뇌내성 약화
+55	25	15	Ice Res +20	빙내성【대】
+56	25	10	Ice Res +15	빙내성【소】
+57	25	-10	Ice Res -20	빙내성 약화
+58	26	15	Dragon Res +20	용내성【대】
+59	26	10	Dragon Res +15	용내성【소】
+60	26	-10	Dragon Res -20	용내성 약화
+61	27	10	Blightproof	속성 피해 무효
+62	28	15	Fire Atk +2	화속성공격강화+2
+63	28	10	Fire Atk +1	화속성공격강화+1
+64	28	-10	Fire Atk Down	화속성공격약화
+65	29	15	Water Atk +2	수속성공격강화+2
+66	29	10	Water Atk +1	수속성공격강화+1
+67	29	-10	Water Atk Down	수속성공격약화
+68	30	15	Thunder Atk +2	뇌속성공격강화+2
+69	30	10	Thunder Atk +1	뇌속성공격강화+1
+70	30	-10	Thunder Atk Down	뇌속성공격약화
+71	31	15	Ice Atk +2	빙속성공격강화+2
+72	31	10	Ice Atk +1	빙속성공격강화+1
+73	31	-10	Ice Atk Down	빙속성공격약화
+74	32	15	Dragon Atk +2	용속성공격강화+2
+75	32	10	Dragon Atk +1	용속성공격강화+1
+76	32	-10	Dragon Atk Down	용속성공격약화
+77	33	10	Element Atk Up	속성 공격 강화
+78	33	-10	Element Atk Down	속성 공격 약화
+79	34	15	Status Atk +2	상태 이상 공격+2
+80	34	10	Status Atk +1	상태 이상 공격+1
+81	34	-10	Status Atk Down	상태 이상 공격 약화
+82	35	10	Speed Sharpening	숫돌 사용 고속화
+83	35	-10	Slow Sharpening	숫돌 사용 저속화
+84	36	15	Sharpness +2	예리도 레벨+2
+85	36	10	Sharpness +1	예리도 레벨+1
+86	37	10	Razor Sharp	업물
+87	37	-10	Blunt Edge	무딘날
+88	38	10	Mind's Eye	심안
+89	38	-10	Blind Eye	미숙
+90	39	10	Heavy Polish	강인연마
+91	40	10	Bludgeoner	둔기 사용
+92	41	10	Critical Draw	발도술【기】
+93	42	10	Punishing Draw	발도술【힘】
+94	43	10	Quick Sheath	납도술
+95	44	10	Challenge Sheath	도전자의 납도
+96	45	10	Bladescale Hone	칼비늘 연마
+97	46	20	Reload Speed +3	장전 속도+3
+98	46	15	Reload Speed +2	장전 속도+2
+99	46	10	Reload Speed +1	장전 속도+1
+100	46	-10	Reload Speed -1	장전 속도-1
+101	46	-15	Reload Speed -2	장전 속도-2
+102	46	-20	Reload Speed -3	장전 속도-3
+103	47	20	Recoil Down +3	반동 경감+3
+104	47	15	Recoil Down +2	반동 경감+2
+105	47	10	Recoil Down +1	반동 경감+1
+106	47	-10	Recoil Down -1	반동 경감-1
+107	47	-15	Recoil Down -2	반동 경감-2
+108	47	-20	Recoil Down -3	반동 경감-3
+109	48	15	Steadiness +2	치우침 억제+2
+110	48	10	Steadiness +1	치우침 억제+1
+111	48	-10	Steadiness -1	치우침 억제-1
+112	48	-15	Steadiness -2	치우침 억제-2
+113	49	10	Normal/Rapid Up	통상탄・연사활UP
+114	50	10	Pierce/Pierce Up	관통탄・관통활UP
+115	51	10	Pellet/Spread Up	산탄・확산활UP
+116	52	10	Heavy/Heavy Up	중격탄・중사활UP
+117	53	10	Use Any Normal S	통상탄 전LV추가
+118	54	15	Use Any Pierce S	관통탄 전LV추가
+119	54	10	Use Lv1 Pierce S	관통탄 LV1 추가
+120	55	15	Use Any Pellet S	산탄 전LV추가
+121	55	10	Use Lv1 Pellet S	산탄 LV1 추가
+122	56	15	Use Any Crag S	철갑유탄 전LV추가
+123	56	10	Use Lv1 Crag S	철갑유탄 LV1 추가
+124	57	15	Use Any Clust S	확산탄 전LV추가
+125	57	10	Use Lv1 Clust S	확산탄 LV1 추가
+126	58	10	Use Poison Coat	독병 추가
+127	59	10	Use Para Coat	마비병 추가
+128	60	10	Use Sleep Coat	수면병 추가
+129	61	15	Power Phial (All)	강격병 전LV추가
+130	61	10	Power Phial (Lv1)	강격병 LV1 추가
+131	62	15	Element Phial (All)	속성병 전LV추가
+132	62	10	Element Phial (Lv1)	속성병 LV1 추가
+133	63	10	Use C.Range Coat	접격병 추가
+134	64	10	Use Exhaust Coat	감기병 추가
+135	65	10	Use Blast Coat	폭파병 추가
+136	66	10	Bonus Shot	연발 수+1
+137	67	10	Shot Booster	탄도강화
+138	68	10	Load Up	장전 수UP
+139	69	10	TrueShot Up	특정 사격 강화
+140	70	10	Ammo Saver	탄약 절약
+141	71	20	Critical Eye +3	간파+3
+142	71	15	Critical Eye +2	간파+2
+143	71	10	Critical Eye +1	간파+1
+144	71	-10	Critical Eye -1	간파-1
+145	71	-15	Critical Eye -2	간파-2
+146	71	-20	Critical Eye -3	간파-3
+147	72	10	Weakness Exploit	약점 특효
+148	73	10	Repeat Offender	연격의 마음가짐
+149	74	10	Status Crit	회심격【특수】
+150	75	10	Elemental Crit	회심격【속성】
+151	76	10	Critical Boost	초회심
+152	77	10	Bitter Affinity	통한회심
+153	78	10	Focus	집중
+154	78	-10	Distraction	잡념
+155	79	10	Marathon Runner	런너
+156	79	-10	Short Sprinter	둔족
+157	80	15	Constitution +2	체술+2
+158	80	10	Constitution +1	체술+1
+159	80	-10	Constitution -1	체술-1
+160	80	-15	Constitution -2	체술-2
+161	81	10	Stam Recov Up	스태미나급속회복
+162	81	-10	Stam Recov Down	스태미나회복지연
+163	82	10	Endurance Runner	킵 런
+164	83	15	Evasion +2	회피 성능+2
+165	83	10	Evasion +1	회피 성능+1
+166	83	-10	Evasion Down	회피 성능DOWN
+167	84	10	Evade Extender	회피 거리UP
+168	85	10	Bubbly Dance	거품의 춤
+169	86	15	Guard +2	가드 성능+2
+170	86	10	Guard +1	가드 성능+1
+171	86	-10	Guard -1	가드 성능-1
+172	87	10	Guard Up	가드 강화
+173	88	10	Knockout King	KO술
+174	89	10	Stamina Thief	스태미나 탈취
+175	90	10	Horn Maestro	피리 명인
+176	91	15	Artillery Expert	포술왕
+177	91	10	Artillery Novice	포술사
+178	92	10	Partbreaker	파괴왕
+179	93	10	Bombardier	보머
+180	94	15	Latent Power +2	힘의 해방+2
+181	94	10	Latent Power +1	힘의 해방+1
+182	95	15	Challenger +2	도전자+2
+183	95	10	Challenger +1	도전자+1
+184	96	10	Peak Performance	풀차지
+185	97	10	Trump Card	비장의 패
+186	98	10	Dragonheart	용기활성
+187	99	15	Adrenaline +2	재난 대처 능력+2
+188	99	10	Adrenaline +1	재난 대처 능력+1
+189	99	-10	Worrywart	걱정이 태산
+190	100	10	Fortify	불굴
+191	101	10	Resentment	앙심
+192	102	10	Resuscitate	사중구활
+193	103	10	Guts	근성
+194	104	10	Sneak	은밀
+195	104	-10	Taunt	도발
+196	105	10	Palico Rally	동반자 지휘
+197	106	10	Palico Cheer	동반자 호령
+198	107	10	Mounting Master	탑승 명인
+199	107	-10	Saddle Sore	초보탑승자
+200	108	10	Airborne	비연
+201	109	10	Composed	명경지수
+202	110	10	Chance Seizer	호시탐탐
+203	111	10	Longer SP	ＳＰ시간연장
+204	112	15	Autotracker	자동 마킹
+205	112	10	Detect	탐지
+206	113	10	Capture Guru	포획 판단
+207	114	10	Outdoorsman	헌터 생활
+208	115	10	Pro Transporter	운반의 달인
+209	116	10	Divine Blessing	정령의 가호
+210	116	-10	Demonic Blessing	악령의 가호
+211	117	10	Hero's Talisman	영웅의 수호
+212	118	10	Recovery Up	체력 회복량UP
+213	118	-10	Recovery Down	체력 회복량DOWN
+214	119	15	Recovery Spd +2	회복 속도+2
+215	119	10	Recovery Spd +1	회복 속도+1
+216	119	-10	Recovery Spd -1	회복 속도-1
+217	119	-15	Recovery Spd -2	회복 속도-2
+218	120	10	Item Use Up	아이템 사용 강화
+219	120	-10	Item Use Down	아이템 사용 약화
+220	121	15	Wide-Range +2	광역화+2
+221	121	10	Wide-Range +1	광역화+1
+222	122	15	Negate Hunger	배고픔 무효
+223	122	10	Halve Hunger	배고픔 반감
+224	122	-10	Raise Hunger	배고픔 배가【소】
+225	122	-15	Double Hunger	배고픔 배가【대】
+226	123	15	Scavenger	주워 먹기
+227	123	10	Gourmand	만복
+228	124	15	Speed Eating +2	흡입+2
+229	124	10	Speed Eating +1	흡입+1
+230	124	-10	Slow Eater	슬로우 라이프
+231	125	10	Rationer	만족감
+232	126	10	Meat Lover	고기마니아
+233	127	10	Mushromancer	버섯마니아
+234	128	15	Pro Herbology	약초 초강화
+235	128	10	Herbology	약초 강화
+236	129	15	Combination +45%	조합 성공률+45％
+237	129	10	Combination +20%	조합 성공률+20％
+238	129	-10	Combination -10%	조합 성공률-10％
+239	129	-15	Combination -20%	조합 성공률-20％
+240	130	10	Combination Pro	최대 수 생산
+241	131	10	Trap Master	함정꾼
+242	132	15	Gathering +2	채집+2
+243	132	10	Gathering +1	채집+1
+244	132	-10	Gathering -1	채집-1
+245	133	10	Honey Hunter	허니 헌터
+246	134	15	Charm Chaser	부적 헌터
+247	134	10	Charm Collector	부적 수집
+248	135	15	Divine Whim	신의 변덕
+249	135	10	Spirit's Whim	정령의 변덕
+250	135	-10	Spectre's Whim	악령의 변덕
+251	135	-15	Devil's Whim	악마의 변덕
+252	136	20	Miraculous Luck	격운
+253	136	15	Great Luck	강운
+254	136	10	Good Luck	행운
+255	136	-10	Bad Luck	불운
+256	136	-15	Horrible Luck	재난
+257	137	15	Carving Celebrity	갈무리 명인
+258	137	10	Carving Pro	갈무리 철인
+259	138	15	Capture Master	포획 명인
+260	138	10	Capture Expert	포획 달인
+261	139	10	Soul of Bherna	베르나의 마음
+262	140	10	Soul of Kokoto	코코트의 마음
+263	141	10	Soul of Pokke	폿케의 마음
+264	142	10	Soul of Yukumo	유쿠모의 마음
+265	143	10	Soaratorium Soul	용식선의 마음
+266	144	10	Flying Pub Soul	비행주점의 마음
+267	145	10	Redhelm Soul	홍두의 혼
+268	146	10	Snowbaron Soul	대설주의 혼
+269	147	10	Stonefist Soul	모쇄의 혼
+270	148	10	Drilltusk Soul	암천의 혼
+271	149	10	Dreadqueen Soul	자독희의 혼
+272	150	10	Crystalbeard Soul	보전의 혼
+273	151	10	Silverwind Soul	백질풍의 혼
+274	152	10	Deadeye Soul	척안의 혼
+275	153	10	Dreadking Soul	흑염왕의 혼
+276	154	10	Thunderlord Soul	금뇌공의 혼
+277	155	10	Grimclaw Soul	황구조의 혼
+278	156	10	Hellblade Soul	신멸인의 혼
+279	157	10	Nightcloak Soul	농은의 혼
+280	158	10	Rustrazor Soul	개열의 혼
+281	159	10	Soulseer Soul	천안의 혼
+282	160	10	Boltreaver Soul	청전주의 혼
+283	161	10	Elderfrost Soul	은령의 혼
+284	162	10	Bloodbath Soul	오마의 혼
+285	163	10	Redhelm Soul X	진・홍두의 혼
+286	164	10	Snowbaron Soul X	진・대설주의 혼
+287	165	10	Stonefist Soul X	진・모쇄의 혼
+288	166	10	Drilltusk Soul X	진・암천의 혼
+289	167	10	D.queen Soul X	진・자독희의 혼
+290	168	10	C.beard Soul X	진・보전의 혼
+291	169	10	Silverwind Soul X	진・백질풍의 혼
+292	170	10	Deadeye Soul X	진・척안의 혼
+293	171	10	Dreadking Soul X	진・흑염왕의 혼
+294	172	10	Thunderlord Soul X	진・금뇌공의 혼
+295	173	10	Grimclaw Soul X	진・황구조의 혼
+296	174	10	Hellblade Soul X	진・신멸인의 혼
+297	175	10	Nightcloak Soul X	진・농은의 혼
+298	176	10	Rustrazor Soul X	진・개열의 혼
+299	177	10	Soulseer Soul X	진・천안의 혼
+300	178	10	Boltreaver Soul X	진・청전주의 혼
+301	179	10	Elderfrost Soul X	진・은령의 혼
+302	180	10	Bloodbath Soul X	진・오마의 혼
+303	181	10	Pro Dirty Fencer	끈적끈적 검법
+304	182	10	Steady Hand	심검일체
+305	183	10	Alloy Stomach	미식가
+306	184	10	Explosive Trapper	트랩 마스터
+307	185	10	Crushing Blow	강타
+308	186	10	Benediction	축복
+309	187	10	Clandestine	암약
+310	188	10	Honed Blade	진타
+311	189	10	Silver Bullet	강탄
+312	190	10	Wellness	호법
+313	191	10	Wrath Awoken	역린
+314	192	10	Acrobat	곡예사
+315	193	10	Sheath Control	거합술【힘】
+316	194	10	Iron Wall	철벽
+317	195	10	Ruthlessness	무자비
+318	196	10	Shield Bearer	실드 마스터
+319	197	10	Fleet Feet	무투가
+320	198	10	Elementality	속・물 강화
+321	199	10	Pack Rat	부적 마니아
+322	200	10	Bounty Hunter	증수
+323	201	10	Hazefur Talisman	하피의 수호
+324	202	10	Pyroscale Talisman	염린의 수호
+325	203	10	Steelshell Talisman	강각의 수호
+326	204	10	Skill +2	스킬포인트+2
+327	205	10	Double Talisman	호석 계통 배가

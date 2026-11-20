@@ -1,0 +1,13 @@
+[package]
+name = "skill-simulator-hosttest"
+version = "0.1.0"
+edition = "2024"
+publish = false
+
+# Runs the plugin's screen logic (app.rs), search (job.rs), set calculation (set.rs) and data (db.rs) on PC as is
+# and compares with the preview engine (query.exe). Game-only code (input, drawing, saving) is not included.
+[dependencies]
+skillsim-engine = { path = "../engine" }
+
+[profile.release]
+opt-level = 3
