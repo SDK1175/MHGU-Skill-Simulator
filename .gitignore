@@ -12,7 +12,9 @@ target-*/
 /preview/
 /Preview.cmd
 # Design notes and requests for other mods: kept locally, not published
-/docs/
+/docs/*
+!/docs/screenshots
+!/docs/screenshots.md
 
 # Caches
 /tools/.gamedb_cache.json
