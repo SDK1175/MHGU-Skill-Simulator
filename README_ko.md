@@ -2,6 +2,12 @@
   <a href="README.md">English</a> | <strong>한국어</strong>
 </p>
 
+<h3 align="center">스크린샷</h3>
+
+<p align="center">
+  <a href="docs/screenshots.md">스크린샷 보기</a>
+</p>
+
 # MHGU Skill Simulator
 
 Monster Hunter Generations Ultimate에 게임 안에서 쓰는 방어구 스킬 시뮬레이터를 추가하는 Forge 모드입니다. 

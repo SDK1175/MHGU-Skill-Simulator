@@ -2,6 +2,12 @@
   <strong>English</strong> | <a href="README_ko.md">한국어</a>
 </p>
 
+<h3 align="center">Screenshots</h3>
+
+<p align="center">
+  <a href="docs/screenshots.md">View screenshots</a>
+</p>
+
 # MHGU Skill Simulator
 
 A Forge mod that adds an in-game armor skill simulator to Monster Hunter Generations Ultimate. 
