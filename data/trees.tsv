@@ -19,16 +19,16 @@
 19	Attack	공격
 20	Defense	방어
 21	Health	체력
-22	Fire Res	화내성
-23	Water Res	수내성
-24	Thunder Res	뇌내성
-25	Ice Res	빙내성
-26	Dragon Res	용내성
+22	Fire Res	불 내성
+23	Water Res	물 내성
+24	Thunder Res	번개 내성
+25	Ice Res	얼음 내성
+26	Dragon Res	용 내성
 27	Blight Res	속성 내성
-28	Fire Atk	화속성 공격
-29	Water Atk	수속성 공격
-30	Thunder Atk	뇌속성 공격
-31	Ice Atk	빙속성 공격
+28	Fire Atk	불속성 공격
+29	Water Atk	물속성 공격
+30	Thunder Atk	번개속성 공격
+31	Ice Atk	얼음속성 공격
 32	Dragon Atk	용속성 공격
 33	Elemental	속성 공격
 34	Status	특수 공격
@@ -38,11 +38,11 @@
 38	Fencing	검술
 39	Grinder	연마술
 40	Blunt	둔기
-41	Crit Draw	발도 회심
-42	Punish Draw	발도 감기
+41	Crit Draw	발도술【기】
+42	Punish Draw	발도술【힘】
 43	Sheathing	납도
 44	Sheathe Sharpen	납도 연마
-45	Bladescale	칼비늘
+45	Bladescale	칼날비늘
 46	Reload Spd	장전 속도
 47	Recoil	반동
 48	Precision	정밀 사격
@@ -61,7 +61,7 @@
 61	Power C+	강격병 추가
 62	Elem C+	속강병 추가
 63	C.Range C+	접격병 추가
-64	Exhaust C+	감기병 추가
+64	Exhaust C+	멸기병 추가
 65	Blast C+	폭파병 추가
 66	Rapid Fire	속사
 67	Dead Eye	사격법
@@ -75,10 +75,10 @@
 75	Crit Element	속성 회심
 76	Critical Up	회심 강화
 77	Negative Crit	뒷회심
-78	FastCharge	차지 단축
+78	FastCharge	집중
 79	Stamina	스태미나
 80	Constitution	체술
-81	Stam Recov	기력 회복
+81	Stam Recov	스태미나 급속 회복
 82	Distance Runner	지속 주행
 83	Evasion	회피 성능
 84	Evade Dist	회피 거리
@@ -86,14 +86,14 @@
 86	Guard	가드 성능
 87	Guard Up	가드 강화
 88	KO	KO
-89	Stam Drain	감기 공격
-90	Maestro	피리
+89	Stam Drain	스태미나 탈취
+90	Maestro	피리 명인
 91	Artillery	포술
-92	Destroyer	중격
-93	Bomb Boost	폭탄 강화
-94	Gloves Off	잠재력
-95	Spirit	투혼
-96	Unscathed	건강제일
+92	Destroyer	파괴왕
+93	Bomb Boost	보머
+94	Gloves Off	재난대처능력
+95	Spirit	도전자
+96	Unscathed	완전 충전
 97	Chance	찬스
 98	Dragon Spirit	용기
 99	Potential	저력
@@ -108,7 +108,7 @@
 108	Vault	도약
 109	Insight	무심
 110	Endurance	인내
-111	Prolong SP	ＳＰ연장
+111	Prolong SP	SP연장
 112	Psychic	천리안
 113	Perception	관찰안
 114	Ranger	헌터
@@ -118,13 +118,13 @@
 118	Rec Level	회복량
 119	Rec Speed	회복 속도
 120	Lasting Pwr	효과 지속
-121	Wide-Range	광역
+121	Wide-Range	광역화
 122	Hunger	허기
 123	Gluttony	먹보
 124	Eating	식사
 125	Light Eater	절식
 126	Carnivore	육식
-127	Mycology	버섯식사
+127	Mycology	버섯 애호가
 128	Botany	야생초 지식
 129	Combo Rate	조합 성공률
 130	Combo Plus	조합 수
@@ -160,24 +160,24 @@
 160	Boltreaver	청전주
 161	Elderfrost	은령
 162	Bloodbath	오마
-163	Redhelm X	진・홍두
-164	Snowbaron X	진・대설주
-165	Stonefist X	진・모쇄
-166	Drilltusk X	진・암천
-167	Dreadqueen X	진・자독희
-168	Crystalbeard X	진・보전
-169	Silverwind X	진・백질풍
-170	Deadeye X	진・척안
-171	Dreadking X	진・흑염왕
-172	Thunderlord X	진・금뇌공
-173	Grimclaw X	진・황구조
-174	Hellblade X	진・신멸인
-175	Nightcloak X	진・농은
-176	Rustrazor X	진・개열
-177	Soulseer X	진・천안
-178	Boltreaver X	진・청전주
-179	Elderfrost X	진・은령
-180	Bloodbath X	진・오마
+163	Redhelm X	진 홍두
+164	Snowbaron X	진 대설주
+165	Stonefist X	진 모쇄
+166	Drilltusk X	진 암천
+167	Dreadqueen X	진 자독희
+168	Crystalbeard X	진 보전
+169	Silverwind X	진 백질풍
+170	Deadeye X	진 척안
+171	Dreadking X	진 흑염왕
+172	Thunderlord X	진 금뇌공
+173	Grimclaw X	진 황구조
+174	Hellblade X	진 신멸인
+175	Nightcloak X	진 농은
+176	Rustrazor X	진 개열
+177	Soulseer X	진 천안
+178	Boltreaver X	진 청전주
+179	Elderfrost X	진 은령
+180	Bloodbath X	진 오마
 181	D. Fencing	북진낫토류
 182	Edge Lore	참격술
 183	PowerEater	식욕

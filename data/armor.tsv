@@ -74,36 +74,36 @@
 74	Jaggi Shinguards	구룡의 가죽경갑
 75	Jaggi Gloves	구룡의 가장갑
 76	Jaggi Boots	구룡의 가죽장화
-77	Jaggi Helm	쟈기 헬름
-78	Jaggi Mail	쟈기 메일
-79	Jaggi Vambraces	쟈기 암
-80	Jaggi Faulds	쟈기 펄드
-81	Jaggi Greaves	쟈기 그리브
-82	Jaggi Cap	쟈기 캡
-83	Jaggi Vest	쟈기 리지스트
-84	Jaggi Guards	쟈기 가드
-85	Jaggi Coat	쟈기 코트
-86	Jaggi Leggings	쟈기 레깅스
-87	Maccao Helm	맛카오 헬름
-88	Maccao Mail	맛카오 메일
-89	Maccao Braces	맛카오 암
-90	Maccao Faulds	맛카오 펄드
-91	Maccao Greaves	맛카오 그리브
-92	Maccao Cap	맛카오 캡
-93	Maccao Vest	맛카오 리지스트
-94	Maccao Guards	맛카오 가드
-95	Maccao Coat	맛카오 코트
-96	Maccao Leggings	맛카오 레깅스
-97	Velociprey Helm	란포스 헬름
-98	Velociprey Mail	란포스 메일
-99	Velociprey Braces	란포스 암
-100	Velociprey Tassets	란포스 펄드
-101	Velociprey Greaves	란포스 그리브
-102	Velociprey Cap	란포스 캡
-103	Velociprey Vest	란포스 리지스트
-104	Velociprey Guards	란포스 가드
-105	Velociprey Coat	란포스 코트
-106	Velociprey Leggings	란포스 레깅스
+77	Jaggi Helm	재기 헬름
+78	Jaggi Mail	재기 메일
+79	Jaggi Vambraces	재기 암
+80	Jaggi Faulds	재기 펄드
+81	Jaggi Greaves	재기 그리브
+82	Jaggi Cap	재기 캡
+83	Jaggi Vest	재기 리지스트
+84	Jaggi Guards	재기 가드
+85	Jaggi Coat	재기 코트
+86	Jaggi Leggings	재기 레깅스
+87	Maccao Helm	마카오 헬름
+88	Maccao Mail	마카오 메일
+89	Maccao Braces	마카오 암
+90	Maccao Faulds	마카오 펄드
+91	Maccao Greaves	마카오 그리브
+92	Maccao Cap	마카오 캡
+93	Maccao Vest	마카오 리지스트
+94	Maccao Guards	마카오 가드
+95	Maccao Coat	마카오 코트
+96	Maccao Leggings	마카오 레깅스
+97	Velociprey Helm	람포스 헬름
+98	Velociprey Mail	람포스 메일
+99	Velociprey Braces	람포스 암
+100	Velociprey Tassets	람포스 펄드
+101	Velociprey Greaves	람포스 그리브
+102	Velociprey Cap	람포스 캡
+103	Velociprey Vest	람포스 리지스트
+104	Velociprey Guards	람포스 가드
+105	Velociprey Coat	람포스 코트
+106	Velociprey Leggings	람포스 레깅스
 107	Giaprey Helm	기아노스 헬름
 108	Giaprey Mail	기아노스 메일
 109	Giaprey Vambraces	기아노스 암
@@ -173,17 +173,17 @@
 173	Rhenoplos Guards	리노프로 가드
 174	Rhenoplos Coat	리노프로 코트
 175	Rhenoplos Leggings	리노프로 레깅스
-176	Bulldrome Helm	팡고 헬름
-177	Bulldrome Mail	팡고 메일
-178	Bulldrome Braces	팡고 암
-179	Bulldrome Faulds	팡고 펄드
-180	Bulldrome Greaves	팡고 그리브
-181	Bulldrome Cap	팡고 캡
-182	Bulldrome Vest	팡고 리지스트
-183	Bulldrome Guards	팡고 가드
-184	Bulldrome Coat	팡고 코트
-185	Bulldrome Leggings	팡고 레깅스
-186	Bullfango Mask	불팡고 페이크
+176	Bulldrome Helm	팽고 헬름
+177	Bulldrome Mail	팽고 메일
+178	Bulldrome Braces	팽고 암
+179	Bulldrome Faulds	팽고 펄드
+180	Bulldrome Greaves	팽고 그리브
+181	Bulldrome Cap	팽고 캡
+182	Bulldrome Vest	팽고 리지스트
+183	Bulldrome Guards	팽고 가드
+184	Bulldrome Coat	팽고 코트
+185	Bulldrome Leggings	팽고 레깅스
+186	Bullfango Mask	불팽고 페이크
 187	Arzuros Helm	아시라 헬름
 188	Arzuros Mail	아시라 메일
 189	Arzuros Vambraces	아시라 암
@@ -357,12 +357,12 @@
 357	Droth Vest	도로스 리지스트
 358	Droth Coat	도로스 코트
 359	Droth Leggings	도로스 레깅스
-360	Uroktor Torso	코토르 메일
-361	Uroktor Tassets	코토르 펄드
-362	Uroktor Vest	코토르 리지스트
-363	Uroktor Coat	코토르 코트
+360	Uroktor Torso	코트르 메일
+361	Uroktor Tassets	코트르 펄드
+362	Uroktor Vest	코트르 리지스트
+363	Uroktor Coat	코트르 코트
 364	Larinoth Mask	리모스 페이크
-365	Gargwa Mask	가과 페이크
+365	Gargwa Mask	가구아 페이크
 366	Moofah Head	무파 헤드
 367	Moofah Suit	무파 슈트
 368	Moofah Claws	무파 글러브
@@ -372,11 +372,11 @@
 372	Moofah Sleeves	무파 커프스
 373	Moofah Coat	무파 코트
 374	False Felyne	아이루 페이크
-375	Velociprey Head	란포스 헤드
+375	Velociprey Head	람포스 헤드
 376	Velociprey Body	란포슈트 바디
 377	Velociprey Claws	란포슈트 글러브
 378	Velociprey Feet	란포슈트 풋
-379	Velociprey Mask	란포스 페이스
+379	Velociprey Mask	람포스 페이스
 380	Velociprey Suit	란포슈트 웨어
 381	Velociprey Gloves	란포슈트핸드
 382	Velociprey Tights	란포슈트 타이츠
@@ -436,16 +436,16 @@
 436	Lagombi Guards	울크 가드
 437	Lagombi Coat	울크 코트
 438	Lagombi Leggings	울크 레깅스
-439	Gypceros Helm	게료스 헬름
-440	Gypceros Mail	게료스 메일
-441	Gypceros Braces	게료스 암
-442	Gypceros Tassets	게료스 펄드
-443	Gypceros Greaves	게료스 그리브
-444	Gypceros Cap	게료스 캡
-445	Gypceros Vest	게료스 리지스트
-446	Gypceros Guards	게료스 가드
-447	Gypceros Coat	게료스 코트
-448	Gypceros Leggings	게료스 레깅스
+439	Gypceros Helm	게리오스 헬름
+440	Gypceros Mail	게리오스 메일
+441	Gypceros Braces	게리오스 암
+442	Gypceros Tassets	게리오스 펄드
+443	Gypceros Greaves	게리오스 그리브
+444	Gypceros Cap	게리오스 캡
+445	Gypceros Vest	게리오스 리지스트
+446	Gypceros Guards	게리오스 가드
+447	Gypceros Coat	게리오스 코트
+448	Gypceros Leggings	게리오스 레깅스
 449	Tetsucabra Helm	카브라 헬름
 450	Tetsucabra Mail	카브라 메일
 451	Tetsucabra Braces	카브라 암
@@ -476,16 +476,16 @@
 476	Volvidon Guards	랑그로 가드
 477	Volvidon Coat	랑그로 코트
 478	Volvidon Leggings	랑그로 레깅스
-479	Ludroth Helm	루도로스 헬름
-480	Ludroth Mail	루도로스 메일
-481	Ludroth Braces	루도로스 암
-482	Ludroth Faulds	루도로스 펄드
-483	Ludroth Greaves	루도로스 그리브
-484	Ludroth Cap	루도로스 캡
-485	Ludroth Vest	루도로스 리지스트
-486	Ludroth Guards	루도로스 가드
-487	Ludroth Coat	루도로스 코트
-488	Ludroth Leggings	루도로스 레깅스
+479	Ludroth Helm	루드로스 헬름
+480	Ludroth Mail	루드로스 메일
+481	Ludroth Braces	루드로스 암
+482	Ludroth Faulds	루드로스 펄드
+483	Ludroth Greaves	루드로스 그리브
+484	Ludroth Cap	루드로스 캡
+485	Ludroth Vest	루드로스 리지스트
+486	Ludroth Guards	루드로스 가드
+487	Ludroth Coat	루드로스 코트
+488	Ludroth Leggings	루드로스 레깅스
 489	Malfestio Helm	호로로 헬름
 490	Malfestio Mail	호로로 메일
 491	Malfestio Braces	호로로 암
@@ -526,16 +526,16 @@
 526	Nibelsnarf Guards	하플 가드
 527	Nibelsnarf Coat	하플 코트
 528	Nibelsnarf Leggings	하플 레깅스
-529	Blango Helm	브랑고 헬름
-530	Blango Mail	브랑고 메일
-531	Blango Vambraces	브랑고 암
-532	Blango Tassets	브랑고 펄드
-533	Blango Greaves	브랑고 그리브
-534	Blango Cap	브랑고 캡
-535	Blango Vest	브랑고 리지스트
-536	Blango Guards	브랑고 가드
-537	Blango Coat	브랑고 코트
-538	Blango Leggings	브랑고 레깅스
+529	Blango Helm	블랑고 헬름
+530	Blango Mail	블랑고 메일
+531	Blango Vambraces	블랑고 암
+532	Blango Tassets	블랑고 펄드
+533	Blango Greaves	블랑고 그리브
+534	Blango Cap	블랑고 캡
+535	Blango Vest	블랑고 리지스트
+536	Blango Guards	블랑고 가드
+537	Blango Coat	블랑고 코트
+538	Blango Leggings	블랑고 레깅스
 539	Ceanataur Helm	기자미 헬름
 540	Ceanataur Mail	기자미 메일
 541	Ceanataur Braces	기자미 암
@@ -939,16 +939,16 @@
 939	Mafumofu Mittens S	마프모프Ｓ장갑
 940	Mafumofu Coat S	마프모프Ｓ코트
 941	Mafumofu Tights S	마프모프Ｓ타이츠
-942	Yukumo Sky Kasa	유쿠모 삿갓・천
-943	Yukumo Sky Dogi	유쿠모 상의・천
-944	Yukumo Sky Kote	유쿠모 장갑・천
-945	Yukumo Sky Obi	유쿠모 허리띠・천
-946	Yukumo Sky Hakama	유쿠모 하의・천
-947	Yukumo Land Kasa	유쿠모 삿갓・지
-948	Yukumo Land Dogi	유쿠모 상의・지
-949	Yukumo Land Kote	유쿠모 장갑・지
-950	Yukumo Land Obi	유쿠모 허리띠・지
-951	Yukumo Land Hakama	유쿠모 하의・지
+942	Yukumo Sky Kasa	유쿠모 삿갓 천
+943	Yukumo Sky Dogi	유쿠모 상의 천
+944	Yukumo Sky Kote	유쿠모 장갑 천
+945	Yukumo Sky Obi	유쿠모 허리띠 천
+946	Yukumo Sky Hakama	유쿠모 하의 천
+947	Yukumo Land Kasa	유쿠모 삿갓 지
+948	Yukumo Land Dogi	유쿠모 상의 지
+949	Yukumo Land Kote	유쿠모 장갑 지
+950	Yukumo Land Obi	유쿠모 허리띠 지
+951	Yukumo Land Hakama	유쿠모 하의 지
 952	Loc Lac Shawl S	록락Ｓ슈트
 953	Loc Lac Kilt S	록락Ｓ코일
 954	Loc Lac Boots S	록락Ｓ부츠
@@ -986,10 +986,10 @@
 986	Iron Belt S	아이언Ｓ벨트
 987	Silver Metal Boots	실버메탈 부츠
 988	Silver Feet	실버메탈 풋
-989	Chaos Archbun	혼돈의 파오・패
-990	Chaos Archplate	혼돈의 카이・패
-991	Chaos Archdiadem	혼돈의 쟌・패
-992	Chaos Archbrigandine	혼돈의 이이・패
+989	Chaos Archbun	혼돈의 파오 패
+990	Chaos Archplate	혼돈의 카이 패
+991	Chaos Archdiadem	혼돈의 쟌 패
+992	Chaos Archbrigandine	혼돈의 이이 패
 993	Melahoa Hat S	메르호아Ｓ프로르
 994	Melahoa Jacket S	메르호아Ｓ토론코
 995	Melahoa Branch S	메르호아Ｓ라마
@@ -1073,13 +1073,13 @@
 1073	Slagtoth Cowl	즈와로 두건
 1074	Slagtoth Wrap	즈와로 케이프
 1075	Larinoth Mask S	리모스Ｓ페이크
-1076	Gargwa Mask S	가과Ｓ페이크
+1076	Gargwa Mask S	가구아Ｓ페이크
 1077	False Felyne S	아이루Ｓ페이크
-1078	Velociprey Head S	란포스Ｓ헤드
+1078	Velociprey Head S	람포스Ｓ헤드
 1079	Velociprey Body S	란포슈트Ｓ바디
 1080	Velociprey Claws S	란포슈트Ｓ글러브
 1081	Velociprey Feet S	란포슈트Ｓ풋
-1082	Velociprey Mask S	란포스Ｓ페이스
+1082	Velociprey Mask S	람포스Ｓ페이스
 1083	Velociprey Suit S	란포슈트Ｓ웨어
 1084	Velociprey Gloves S	란포슈트Ｓ핸드
 1085	Velociprey Tights S	란포슈트Ｓ타이츠
@@ -1144,46 +1144,46 @@
 1144	Rhenoplos Guards S	리노프로Ｓ가드
 1145	Rhenoplos Coat S	리노프로Ｓ코트
 1146	Rhenoplos Leggings S	리노프로Ｓ레깅스
-1147	Jaggi Helm S	쟈기Ｓ헬름
-1148	Jaggi Mail S	쟈기Ｓ메일
-1149	Jaggi Vambraces S	쟈기Ｓ암
-1150	Jaggi Faulds S	쟈기Ｓ펄드
-1151	Jaggi Greaves S	쟈기Ｓ그리브
-1152	Jaggi Cap S	쟈기Ｓ캡
-1153	Jaggi Vest S	쟈기Ｓ리지스트
-1154	Jaggi Guards S	쟈기Ｓ가드
-1155	Jaggi Coat S	쟈기Ｓ코트
-1156	Jaggi Leggings S	쟈기Ｓ레깅스
+1147	Jaggi Helm S	재기Ｓ헬름
+1148	Jaggi Mail S	재기Ｓ메일
+1149	Jaggi Vambraces S	재기Ｓ암
+1150	Jaggi Faulds S	재기Ｓ펄드
+1151	Jaggi Greaves S	재기Ｓ그리브
+1152	Jaggi Cap S	재기Ｓ캡
+1153	Jaggi Vest S	재기Ｓ리지스트
+1154	Jaggi Guards S	재기Ｓ가드
+1155	Jaggi Coat S	재기Ｓ코트
+1156	Jaggi Leggings S	재기Ｓ레깅스
 1157	Droth Mail S	도로스Ｓ메일
 1158	Droth Faulds S	도로스Ｓ펄드
 1159	Droth Greaves S	도로스Ｓ그리브
 1160	Droth Vest S	도로스Ｓ리지스트
 1161	Droth Coat S	도로스Ｓ코트
 1162	Droth Leggings S	도로스Ｓ레깅스
-1163	Uroktor Torso S	코토르Ｓ메일
-1164	Uroktor Tassets S	코토르Ｓ펄드
-1165	Uroktor Vest S	코토르Ｓ리지스트
-1166	Uroktor Coat S	코토르Ｓ코트
-1167	Maccao Helm S	맛카오Ｓ헬름
-1168	Maccao Mail S	맛카오Ｓ메일
-1169	Maccao Braces S	맛카오Ｓ암
-1170	Maccao Faulds S	맛카오Ｓ펄드
-1171	Maccao Greaves S	맛카오Ｓ그리브
-1172	Maccao Cap S	맛카오Ｓ캡
-1173	Maccao Vest S	맛카오Ｓ리지스트
-1174	Maccao Guards S	맛카오Ｓ가드
-1175	Maccao Coat S	맛카오Ｓ코트
-1176	Maccao Leggings S	맛카오Ｓ레깅스
-1177	Velociprey Helm S	란포스Ｓ헬름
-1178	Velociprey Mail S	란포스Ｓ메일
-1179	Velociprey Braces S	란포스Ｓ암
-1180	Velociprey Tassets S	란포스Ｓ펄드
-1181	Velociprey Greaves S	란포스Ｓ그리브
-1182	Velociprey Cap S	란포스Ｓ캡
-1183	Velociprey Vest S	란포스Ｓ리지스트
-1184	Velociprey Guards S	란포스Ｓ가드
-1185	Velociprey Coat S	란포스Ｓ코트
-1186	Velociprey Leggings S	란포스Ｓ레깅스
+1163	Uroktor Torso S	코트르Ｓ메일
+1164	Uroktor Tassets S	코트르Ｓ펄드
+1165	Uroktor Vest S	코트르Ｓ리지스트
+1166	Uroktor Coat S	코트르Ｓ코트
+1167	Maccao Helm S	마카오Ｓ헬름
+1168	Maccao Mail S	마카오Ｓ메일
+1169	Maccao Braces S	마카오Ｓ암
+1170	Maccao Faulds S	마카오Ｓ펄드
+1171	Maccao Greaves S	마카오Ｓ그리브
+1172	Maccao Cap S	마카오Ｓ캡
+1173	Maccao Vest S	마카오Ｓ리지스트
+1174	Maccao Guards S	마카오Ｓ가드
+1175	Maccao Coat S	마카오Ｓ코트
+1176	Maccao Leggings S	마카오Ｓ레깅스
+1177	Velociprey Helm S	람포스Ｓ헬름
+1178	Velociprey Mail S	람포스Ｓ메일
+1179	Velociprey Braces S	람포스Ｓ암
+1180	Velociprey Tassets S	람포스Ｓ펄드
+1181	Velociprey Greaves S	람포스Ｓ그리브
+1182	Velociprey Cap S	람포스Ｓ캡
+1183	Velociprey Vest S	람포스Ｓ리지스트
+1184	Velociprey Guards S	람포스Ｓ가드
+1185	Velociprey Coat S	람포스Ｓ코트
+1186	Velociprey Leggings S	람포스Ｓ레깅스
 1187	Giaprey Helm S	기아노스Ｓ헬름
 1188	Giaprey Mail S	기아노스Ｓ메일
 1189	Giaprey Braces S	기아노스Ｓ암
@@ -1298,17 +1298,17 @@
 1298	Konchu Braces S	쿤추Ｓ암
 1299	Konchu Cap S	쿤추Ｓ캡
 1300	Konchu Guards S	쿤추Ｓ가드
-1301	Bulldrome Helm S	팡고Ｓ헬름
-1302	Bulldrome Mail S	팡고Ｓ메일
-1303	Bulldrome Braces S	팡고Ｓ암
-1304	Bulldrome Faulds S	팡고Ｓ펄드
-1305	Bulldrome Greaves S	팡고Ｓ그리브
-1306	Bulldrome Cap S	팡고Ｓ캡
-1307	Bulldrome Vest S	팡고Ｓ리지스트
-1308	Bulldrome Guards S	팡고Ｓ가드
-1309	Bulldrome Coat S	팡고Ｓ코트
-1310	Bulldrome Leggings S	팡고Ｓ레깅스
-1311	Bullfango Mask S	팡고Ｓ페이크
+1301	Bulldrome Helm S	팽고Ｓ헬름
+1302	Bulldrome Mail S	팽고Ｓ메일
+1303	Bulldrome Braces S	팽고Ｓ암
+1304	Bulldrome Faulds S	팽고Ｓ펄드
+1305	Bulldrome Greaves S	팽고Ｓ그리브
+1306	Bulldrome Cap S	팽고Ｓ캡
+1307	Bulldrome Vest S	팽고Ｓ리지스트
+1308	Bulldrome Guards S	팽고Ｓ가드
+1309	Bulldrome Coat S	팽고Ｓ코트
+1310	Bulldrome Leggings S	팽고Ｓ레깅스
+1311	Bullfango Mask S	팽고Ｓ페이크
 1312	Arzuros Helm S	아시라Ｓ헬름
 1313	Arzuros Mail S	아시라Ｓ메일
 1314	Arzuros Vambraces S	아시라Ｓ암
@@ -1369,26 +1369,26 @@
 1369	Lagombi Guards S	울크Ｓ가드
 1370	Lagombi Coat S	울크Ｓ코트
 1371	Lagombi Leggings S	울크Ｓ레깅스
-1372	Gypceros Helm S	게료스Ｓ헬름
-1373	Gypceros Mail S	게료스Ｓ메일
-1374	Gypceros Braces S	게료스Ｓ암
-1375	Gypceros Tassets S	게료스Ｓ펄드
-1376	Gypceros Greaves S	게료스Ｓ그리브
-1377	Gypceros Cap S	게료스Ｓ캡
-1378	Gypceros Vest S	게료스Ｓ리지스트
-1379	Gypceros Guards S	게료스Ｓ가드
-1380	Gypceros Coat S	게료스Ｓ코트
-1381	Gypceros Leggings S	게료스Ｓ레깅스
-1382	Gypceros Helm R	게료스Ｒ헬름
-1383	Gypceros Mail R	게료스Ｒ메일
-1384	Gypceros Braces R	게료스Ｒ암
-1385	Gypceros Tassets R	게료스Ｒ펄드
-1386	Gypceros Greaves R	게료스Ｒ그리브
-1387	Gypceros Cap R	게료스Ｒ캡
-1388	Gypceros Vest R	게료스Ｒ리지스트
-1389	Gypceros Guards R	게료스Ｒ가드
-1390	Gypceros Coat R	게료스Ｒ코트
-1391	Gypceros Leggings R	게료스Ｒ레깅스
+1372	Gypceros Helm S	게리오스Ｓ헬름
+1373	Gypceros Mail S	게리오스Ｓ메일
+1374	Gypceros Braces S	게리오스Ｓ암
+1375	Gypceros Tassets S	게리오스Ｓ펄드
+1376	Gypceros Greaves S	게리오스Ｓ그리브
+1377	Gypceros Cap S	게리오스Ｓ캡
+1378	Gypceros Vest S	게리오스Ｓ리지스트
+1379	Gypceros Guards S	게리오스Ｓ가드
+1380	Gypceros Coat S	게리오스Ｓ코트
+1381	Gypceros Leggings S	게리오스Ｓ레깅스
+1382	Gypceros Helm R	게리오스Ｒ헬름
+1383	Gypceros Mail R	게리오스Ｒ메일
+1384	Gypceros Braces R	게리오스Ｒ암
+1385	Gypceros Tassets R	게리오스Ｒ펄드
+1386	Gypceros Greaves R	게리오스Ｒ그리브
+1387	Gypceros Cap R	게리오스Ｒ캡
+1388	Gypceros Vest R	게리오스Ｒ리지스트
+1389	Gypceros Guards R	게리오스Ｒ가드
+1390	Gypceros Coat R	게리오스Ｒ코트
+1391	Gypceros Leggings R	게리오스Ｒ레깅스
 1392	Tetsucabra Helm S	카브라Ｓ헬름
 1393	Tetsucabra Mail S	카브라Ｓ메일
 1394	Tetsucabra Braces S	카브라Ｓ암
@@ -1449,26 +1449,26 @@
 1449	Conga Guards	콩가 가드
 1450	Conga Coat	콩가 코트
 1451	Conga Leggings	콩가 레깅스
-1452	Ludroth Helm S	루도로스Ｓ헬름
-1453	Ludroth Mail S	루도로스Ｓ메일
-1454	Ludroth Braces S	루도로스Ｓ암
-1455	Ludroth Faulds S	루도로스Ｓ펄드
-1456	Ludroth Greaves S	루도로스Ｓ그리브
-1457	Ludroth Cap S	루도로스Ｓ캡
-1458	Ludroth Vest S	루도로스Ｓ리지스트
-1459	Ludroth Guards S	루도로스Ｓ가드
-1460	Ludroth Coat S	루도로스Ｓ코트
-1461	Ludroth Leggings S	루도로스Ｓ레깅스
-1462	Ludroth Helm R	루도로스Ｒ헬름
-1463	Ludroth Mail R	루도로스Ｒ메일
-1464	Ludroth Braces R	루도로스Ｒ암
-1465	Ludroth Tassets R	루도로스Ｒ펄드
-1466	Ludroth Greaves R	루도로스Ｒ그리브
-1467	Ludroth Cap R	루도로스Ｒ캡
-1468	Ludroth Vest R	루도로스Ｒ리지스트
-1469	Ludroth Guards R	루도로스Ｒ가드
-1470	Ludroth Coat R	루도로스Ｒ코트
-1471	Ludroth Leggings R	루도로스Ｒ레깅스
+1452	Ludroth Helm S	루드로스Ｓ헬름
+1453	Ludroth Mail S	루드로스Ｓ메일
+1454	Ludroth Braces S	루드로스Ｓ암
+1455	Ludroth Faulds S	루드로스Ｓ펄드
+1456	Ludroth Greaves S	루드로스Ｓ그리브
+1457	Ludroth Cap S	루드로스Ｓ캡
+1458	Ludroth Vest S	루드로스Ｓ리지스트
+1459	Ludroth Guards S	루드로스Ｓ가드
+1460	Ludroth Coat S	루드로스Ｓ코트
+1461	Ludroth Leggings S	루드로스Ｓ레깅스
+1462	Ludroth Helm R	루드로스Ｒ헬름
+1463	Ludroth Mail R	루드로스Ｒ메일
+1464	Ludroth Braces R	루드로스Ｒ암
+1465	Ludroth Tassets R	루드로스Ｒ펄드
+1466	Ludroth Greaves R	루드로스Ｒ그리브
+1467	Ludroth Cap R	루드로스Ｒ캡
+1468	Ludroth Vest R	루드로스Ｒ리지스트
+1469	Ludroth Guards R	루드로스Ｒ가드
+1470	Ludroth Coat R	루드로스Ｒ코트
+1471	Ludroth Leggings R	루드로스Ｒ레깅스
 1472	Barroth Helm	보로스 헬름
 1473	Barroth Mail	보로스 메일
 1474	Barroth Vambraces	보로스 암
@@ -1671,7 +1671,7 @@
 1671	Spio Manus S	스파이오Ｓ브라소
 1672	Spio Alae S	스파이오Ｓ콕사
 1673	Spio Tarsi S	스파이오Ｓ페무르
-1674	Jaggi Mask	쟈기 페이크
+1674	Jaggi Mask	재기 페이크
 1675	Basarios Helm	바살 헬름
 1676	Basarios Mail	바살 메일
 1677	Basarios Vambraces	바살 암
@@ -1780,26 +1780,26 @@
 1780	Plesioth Vest	가노스 리지스트
 1781	Plesioth Guards	가노스 가드
 1782	Plesioth Leggings	가노스 레깅스
-1783	Blango Helm S	브랑고Ｓ헬름
-1784	Blango Mail S	브랑고Ｓ메일
-1785	Blango Vambraces S	브랑고Ｓ암
-1786	Blango Tassets S	브랑고Ｓ펄드
-1787	Blango Greaves S	브랑고Ｓ그리브
-1788	Blango Cap S	브랑고Ｓ캡
-1789	Blango Vest S	브랑고Ｓ리지스트
-1790	Blango Guards S	브랑고Ｓ가드
-1791	Blango Coat S	브랑고Ｓ코트
-1792	Blango Leggings S	브랑고Ｓ레깅스
-1793	EX Blango Helm	EX브랑고 헬름
-1794	EX Blango Mail	EX브랑고 메일
-1795	EX Blango Braces	EX브랑고 암
-1796	EX Blango Tassets	EX브랑고 펄드
-1797	EX Blango Greaves	EX브랑고 그리브
-1798	EX Blango Cap	EX브랑고 캡
-1799	EX Blango Vest	EX브랑고 리지스트
-1800	EX Blango Guards	EX브랑고 가드
-1801	EX Blango Coat	EX브랑고 코트
-1802	EX Blango Leggings	EX브랑고 레깅스
+1783	Blango Helm S	블랑고Ｓ헬름
+1784	Blango Mail S	블랑고Ｓ메일
+1785	Blango Vambraces S	블랑고Ｓ암
+1786	Blango Tassets S	블랑고Ｓ펄드
+1787	Blango Greaves S	블랑고Ｓ그리브
+1788	Blango Cap S	블랑고Ｓ캡
+1789	Blango Vest S	블랑고Ｓ리지스트
+1790	Blango Guards S	블랑고Ｓ가드
+1791	Blango Coat S	블랑고Ｓ코트
+1792	Blango Leggings S	블랑고Ｓ레깅스
+1793	EX Blango Helm	EX블랑고 헬름
+1794	EX Blango Mail	EX블랑고 메일
+1795	EX Blango Braces	EX블랑고 암
+1796	EX Blango Tassets	EX블랑고 펄드
+1797	EX Blango Greaves	EX블랑고 그리브
+1798	EX Blango Cap	EX블랑고 캡
+1799	EX Blango Vest	EX블랑고 리지스트
+1800	EX Blango Guards	EX블랑고 가드
+1801	EX Blango Coat	EX블랑고 코트
+1802	EX Blango Leggings	EX블랑고 레깅스
 1803	Lavasioth Helm	라바 헬름
 1804	Lavasioth Mail	라바 메일
 1805	Lavasioth Braces	라바 암
@@ -2407,16 +2407,16 @@
 2407	Chakra Bracelet	삼안의 팔찌
 2408	Chakra Waistlet	삼안의 허리장식
 2409	Chakra Anklet	삼안의 발찌
-2410	Dianthus Wealcap	요조숙녀・화【포관】
-2411	Dianthus Wealcoat	요조숙녀・화【화의】
-2412	Dianthus Wealsleeves	요조숙녀・화【뇌수】
-2413	Dianthus Wealskirt	요조숙녀・화【지수】
-2414	Dianthus Wealpants	요조숙녀・화【구고】
-2415	Campanile Wealcap	가인숙녀・화【포관】
-2416	Campanile Wealcoat	가인숙녀・화【화의】
-2417	Campanile Wealsleeves	가인숙녀・화【뇌수】
-2418	Campanile Wealskirt	가인숙녀・화【지수】
-2419	Campanile Wealpants	가인숙녀・화【구고】
+2410	Dianthus Wealcap	요조숙녀 화【포관】
+2411	Dianthus Wealcoat	요조숙녀 화【화의】
+2412	Dianthus Wealsleeves	요조숙녀 화【뇌수】
+2413	Dianthus Wealskirt	요조숙녀 화【지수】
+2414	Dianthus Wealpants	요조숙녀 화【구고】
+2415	Campanile Wealcap	가인숙녀 화【포관】
+2416	Campanile Wealcoat	가인숙녀 화【화의】
+2417	Campanile Wealsleeves	가인숙녀 화【뇌수】
+2418	Campanile Wealskirt	가인숙녀 화【지수】
+2419	Campanile Wealpants	가인숙녀 화【구고】
 2420	Ace Headgear	에이스 헤드
 2421	Ace Mail	에이스 메일
 2422	Ace Vambraces	에이스 암
@@ -2478,26 +2478,26 @@
 2478	Archer's Gauntlets	성새궁격대【장갑】
 2479	Archer's Belt	성새궁격대【탄띠】
 2480	Archer's Espadrilles	성새궁격대【버선】
-2481	Shinobi Heaven Mask	인내의 가면・천
-2482	Shinobi Heaven Suit	인내의 장속・천
-2483	Shinobi Heaven Kote	인내의 장갑・천
-2484	Shinobi Heaven Belt	인내의 띠・천
-2485	Shinobi Heaven Boots	인내의 버선・천
-2486	Shinobi Land Mask	인내의 가면・지
-2487	Shinobi Land Suit	인내의 장속・지
-2488	Shinobi Land Kote	인내의 장갑・지
-2489	Shinobi Land Belt	인내의 띠・지
-2490	Shinobi Land Boots	인내의 버선・지
-2491	Shinobi Sky Mask	인내의 가면・공
-2492	Shinobi Sky Suit	인내의 장속・공
-2493	Shinobi Sky Kote	인내의 장갑・공
-2494	Shinobi Sky Belt	인내의 띠・공
-2495	Shinobi Sky Boots	인내의 버선・공
-2496	Shinobi Sea Mask	인내의 가면・해
-2497	Shinobi Sea Suit	인내의 장속・해
-2498	Shinobi Sea Kote	인내의 장갑・해
-2499	Shinobi Sea Belt	인내의 띠・해
-2500	Shinobi Sea Boots	인내의 버선・해
+2481	Shinobi Heaven Mask	인내의 가면 천
+2482	Shinobi Heaven Suit	인내의 장속 천
+2483	Shinobi Heaven Kote	인내의 장갑 천
+2484	Shinobi Heaven Belt	인내의 띠 천
+2485	Shinobi Heaven Boots	인내의 버선 천
+2486	Shinobi Land Mask	인내의 가면 지
+2487	Shinobi Land Suit	인내의 장속 지
+2488	Shinobi Land Kote	인내의 장갑 지
+2489	Shinobi Land Belt	인내의 띠 지
+2490	Shinobi Land Boots	인내의 버선 지
+2491	Shinobi Sky Mask	인내의 가면 공
+2492	Shinobi Sky Suit	인내의 장속 공
+2493	Shinobi Sky Kote	인내의 장갑 공
+2494	Shinobi Sky Belt	인내의 띠 공
+2495	Shinobi Sky Boots	인내의 버선 공
+2496	Shinobi Sea Mask	인내의 가면 해
+2497	Shinobi Sea Suit	인내의 장속 해
+2498	Shinobi Sea Kote	인내의 장갑 해
+2499	Shinobi Sea Belt	인내의 띠 해
+2500	Shinobi Sea Boots	인내의 버선 해
 2501	Ancient Helm	용역사 헬름
 2502	Ancient Mail	용역사 메일
 2503	Ancient Arms	용역사 암
@@ -2768,26 +2768,26 @@
 2768	Silver Solguards	실버솔 가드
 2769	Silver Solcoat	실버솔 코트
 2770	Silver Solleggings	실버솔 레깅스
-2771	EX Silver Solhelm	EXＳ・솔 헬름
-2772	EX Silver Solmail	EXＳ・솔 메일
-2773	EX Silver Solbraces	EXＳ・솔 암
-2774	EX Silver Solcoil	EXＳ・솔 코일
-2775	EX Silver Solgreaves	EXＳ・솔 그리브
-2776	EX Silver Solcap	EXＳ・솔 캡
-2777	EX Silver Solvest	EXＳ・솔 리지스트
-2778	EX Silver Solguards	EXＳ・솔 가드
-2779	EX Silver Solcoat	EXＳ・솔 코트
-2780	EX Silver Solleggings	EXＳ・솔 레깅스
-2781	Silver Solhelm R	Ｓ・솔Ｒ헬름
-2782	Silver Solmail R	Ｓ・솔Ｒ메일
-2783	Silver Solbraces R	Ｓ・솔Ｒ암
-2784	Silver Solcoil R	Ｓ・솔Ｒ코일
-2785	Silver Solgreaves R	Ｓ・솔Ｒ그리브
-2786	Silver Solcap R	Ｓ・솔Ｒ캡
-2787	Silver Solvest R	Ｓ・솔Ｒ리지스트
-2788	Silver Solguards R	Ｓ・솔Ｒ가드
-2789	Silver Solcoat R	Ｓ・솔Ｒ코트
-2790	Silver Solleggings R	Ｓ・솔Ｒ레깅스
+2771	EX Silver Solhelm	EXＳ 솔 헬름
+2772	EX Silver Solmail	EXＳ 솔 메일
+2773	EX Silver Solbraces	EXＳ 솔 암
+2774	EX Silver Solcoil	EXＳ 솔 코일
+2775	EX Silver Solgreaves	EXＳ 솔 그리브
+2776	EX Silver Solcap	EXＳ 솔 캡
+2777	EX Silver Solvest	EXＳ 솔 리지스트
+2778	EX Silver Solguards	EXＳ 솔 가드
+2779	EX Silver Solcoat	EXＳ 솔 코트
+2780	EX Silver Solleggings	EXＳ 솔 레깅스
+2781	Silver Solhelm R	Ｓ 솔Ｒ헬름
+2782	Silver Solmail R	Ｓ 솔Ｒ메일
+2783	Silver Solbraces R	Ｓ 솔Ｒ암
+2784	Silver Solcoil R	Ｓ 솔Ｒ코일
+2785	Silver Solgreaves R	Ｓ 솔Ｒ그리브
+2786	Silver Solcap R	Ｓ 솔Ｒ캡
+2787	Silver Solvest R	Ｓ 솔Ｒ리지스트
+2788	Silver Solguards R	Ｓ 솔Ｒ가드
+2789	Silver Solcoat R	Ｓ 솔Ｒ코트
+2790	Silver Solleggings R	Ｓ 솔Ｒ레깅스
 2791	Golden Lunehelm	골드루나 헬름
 2792	Golden Lunemail	골드루나 메일
 2793	Golden Lunebraces	골드루나 암
@@ -2798,16 +2798,16 @@
 2798	Golden Luneguards	골드루나 가드
 2799	Golden Lunecoat	골드루나 코트
 2800	Golden Luneleggings	골드루나 레깅스
-2801	EX Golden Lunehelm	EXＧ・루나 헬름
-2802	EX Golden Lunemail	EXＧ・루나 메일
-2803	EX Golden Lunebraces	EXＧ・루나 암
-2804	EX Golden Lunecoil	EXＧ・루나 코일
-2805	EX Golden Lunegreaves	EXＧ・루나 그리브
-2806	EX Golden Lunecap	EXＧ・루나 캡
-2807	EX Golden Lunevest	EXＧ・루나 리지스트
-2808	EX Golden Luneguards	EXＧ・루나 가드
-2809	EX Golden Lunecoat	EXＧ・루나 코트
-2810	EX Golden Luneleggings	EXＧ・루나 레깅스
+2801	EX Golden Lunehelm	EXＧ 루나 헬름
+2802	EX Golden Lunemail	EXＧ 루나 메일
+2803	EX Golden Lunebraces	EXＧ 루나 암
+2804	EX Golden Lunecoil	EXＧ 루나 코일
+2805	EX Golden Lunegreaves	EXＧ 루나 그리브
+2806	EX Golden Lunecap	EXＧ 루나 캡
+2807	EX Golden Lunevest	EXＧ 루나 리지스트
+2808	EX Golden Luneguards	EXＧ 루나 가드
+2809	EX Golden Lunecoat	EXＧ 루나 코트
+2810	EX Golden Luneleggings	EXＧ 루나 레깅스
 2811	Divine Ire Headdress	노천 묶은머리
 2812	Divine Ire Haori	노천 하오리
 2813	Divine Ire Kote	노천 장갑
@@ -2888,16 +2888,16 @@
 2888	Welkin Sleeves R	창천아류【소매】
 2889	Welkin Obi R	창천아류【띠】
 2890	Welkin Hakama R	창천아류【하의】
-2891	Skeletal Skull R	해장갑・패【두개골】
-2892	Skeletal Sternum R	해장갑・패【흉골】
-2893	Skeletal Humerus R	해장갑・패【상완골】
-2894	Skeletal Hipbone R	해장갑・패【허리뼈】
-2895	Skeletal Femur R	해장갑・패【대퇴골】
-2896	Decayed Skull R	시장갑・패【두개골】
-2897	Decayed Sternum R	시장갑・패【흉골】
-2898	Decayed Humerus R	시장갑・패【상완골】
-2899	Decayed Hipbone R	시장갑・패【허리뼈】
-2900	Decayed Femur R	시장갑・패【대퇴골】
+2891	Skeletal Skull R	해장갑 패【두개골】
+2892	Skeletal Sternum R	해장갑 패【흉골】
+2893	Skeletal Humerus R	해장갑 패【상완골】
+2894	Skeletal Hipbone R	해장갑 패【허리뼈】
+2895	Skeletal Femur R	해장갑 패【대퇴골】
+2896	Decayed Skull R	시장갑 패【두개골】
+2897	Decayed Sternum R	시장갑 패【흉골】
+2898	Decayed Humerus R	시장갑 패【상완골】
+2899	Decayed Hipbone R	시장갑 패【허리뼈】
+2900	Decayed Femur R	시장갑 패【대퇴골】
 2901	Astral Helm	아스리스타 헬름
 2902	Astral Suit	아스리스타 슈트
 2903	Astral Vambraces	아스리스타 암
@@ -2990,16 +2990,16 @@
 2990	Mafumofu Mittens X	마프모프Ｘ장갑
 2991	Mafumofu Coat X	마프모프Ｘ코트
 2992	Mafumofu Tights X	마프모프Ｘ타이츠
-2993	Yukumo Sky Kasa Goku	유쿠모 삿갓・극천
-2994	Yukumo Sky Dogi Goku	유쿠모 상의・극천
-2995	Yukumo Sky Kote Goku	유쿠모 장갑・극천
-2996	Yukumo Sky Obi Goku	유쿠모 허리띠・극천
-2997	Yukumo Sky Hakama Goku	유쿠모 하의・극천
-2998	Yukumo Land Kasa Goku	유쿠모 삿갓・극지
-2999	Yukumo Land Dogi Goku	유쿠모 상의・극지
-3000	Yukumo Land Kote Goku	유쿠모 장갑・극지
-3001	Yukumo Land Obi Goku	유쿠모 허리띠・극지
-3002	Yukumo Land Hakama Goku	유쿠모 하의・극지
+2993	Yukumo Sky Kasa Goku	유쿠모 삿갓 극천
+2994	Yukumo Sky Dogi Goku	유쿠모 상의 극천
+2995	Yukumo Sky Kote Goku	유쿠모 장갑 극천
+2996	Yukumo Sky Obi Goku	유쿠모 허리띠 극천
+2997	Yukumo Sky Hakama Goku	유쿠모 하의 극천
+2998	Yukumo Land Kasa Goku	유쿠모 삿갓 극지
+2999	Yukumo Land Dogi Goku	유쿠모 상의 극지
+3000	Yukumo Land Kote Goku	유쿠모 장갑 극지
+3001	Yukumo Land Obi Goku	유쿠모 허리띠 극지
+3002	Yukumo Land Hakama Goku	유쿠모 하의 극지
 3003	Posh Bath Towel	최고급 목욕 타월
 3004	Posh Bath Robe	최고급 목욕 수건
 3005	Posh Bath Sleeves	최고급 목욕 손목
@@ -3037,16 +3037,16 @@
 3037	Bone Guards X	본Ｘ가드
 3038	Bone Coat X	본Ｘ코트
 3039	Bone Leggings X	본Ｘ레깅스
-3040	Silver Boots X	Ｓ・메탈Ｘ부츠
-3041	Metal Feet X	Ｓ・메탈Ｘ풋
+3040	Silver Boots X	Ｓ 메탈Ｘ부츠
+3041	Metal Feet X	Ｓ 메탈Ｘ풋
 3042	Trapper's Gauntlets X	사냥꾼의 가죽토시Ｘ
 3043	Trapper's Greaves X	사냥꾼의 가죽장화Ｘ
 3044	Trapper's Gloves X	사냥꾼의 가장갑Ｘ
 3045	Trapper's Boots X	사냥꾼의 가죽장화Ｘ
-3046	Grand Chaoshroom	혼돈의 파오・진
-3047	Grand Chaos Plate	혼돈의 카이・진
-3048	Grand Chaos Diadem	혼돈의 쟌・진
-3049	Grand Chaos Brigandine	혼돈의 이이・진
+3046	Grand Chaoshroom	혼돈의 파오 진
+3047	Grand Chaos Plate	혼돈의 카이 진
+3048	Grand Chaos Diadem	혼돈의 쟌 진
+3049	Grand Chaos Brigandine	혼돈의 이이 진
 3050	Maccao Gauntlets X	도구룡의 가죽토시Ｘ
 3051	Maccao Shinguards X	도구룡의 가죽장화Ｘ
 3052	Maccao Gloves X	도구룡의 가죽장갑Ｘ
@@ -3367,16 +3367,16 @@
 3367	French Maid Sleeves X	프라이빗Ｘ커프스
 3368	French Maid Frills X	프라이빗Ｘ프릴
 3369	French Maid Tights X	프라이빗Ｘ타이츠
-3370	Dianthus Masacap	요조숙녀・아【포관】
-3371	Dianthus Masajacket	요조숙녀・아【화의】
-3372	Dianthus Masasleeves	요조숙녀・아【뇌수】
-3373	Dianthus Masaskirt	요조숙녀・아【지수】
-3374	Dianthus Masapants	요조숙녀・아【구고】
-3375	Campanile Masacap	가인숙녀・아【포관】
-3376	Campanile Masajacket	가인숙녀・아【화의】
-3377	Campanile Masasleeves	가인숙녀・아【뇌수】
-3378	Campanile Masaskirt	가인숙녀・아【지수】
-3379	Campanile Masapants	가인숙녀・아【구고】
+3370	Dianthus Masacap	요조숙녀 아【포관】
+3371	Dianthus Masajacket	요조숙녀 아【화의】
+3372	Dianthus Masasleeves	요조숙녀 아【뇌수】
+3373	Dianthus Masaskirt	요조숙녀 아【지수】
+3374	Dianthus Masapants	요조숙녀 아【구고】
+3375	Campanile Masacap	가인숙녀 아【포관】
+3376	Campanile Masajacket	가인숙녀 아【화의】
+3377	Campanile Masasleeves	가인숙녀 아【뇌수】
+3378	Campanile Masaskirt	가인숙녀 아【지수】
+3379	Campanile Masapants	가인숙녀 아【구고】
 3380	Hawkhat X	호크Ｘ해드
 3381	Hawksuit X	호크Ｘ슈트
 3382	Hawkbraces X	호크Ｘ암
@@ -3441,37 +3441,37 @@
 3441	Slagtoth Cloak X	즈와로Ｘ망토
 3442	Slagtoth Cowl X	즈와로Ｘ두건
 3443	Slagtoth Wrap X	즈와로Ｘ케이프
-3444	Jaggi Helm X	쟈기Ｘ헬름
-3445	Jaggi Mail X	쟈기Ｘ메일
-3446	Jaggi Vambraces X	쟈기Ｘ암
-3447	Jaggi Faulds X	쟈기Ｘ펄드
-3448	Jaggi Greaves X	쟈기Ｘ그리브
-3449	Jaggi Cap X	쟈기Ｘ캡
-3450	Jaggi Vest X	쟈기Ｘ리지스트
-3451	Jaggi Guards X	쟈기Ｘ가드
-3452	Jaggi Coat X	쟈기Ｘ코트
-3453	Jaggi Leggings X	쟈기Ｘ레깅스
-3454	Jaggi Mask X	쟈기Ｘ페이크
-3455	Maccao Helm X	맛카오Ｘ헬름
-3456	Maccao Mail X	맛카오Ｘ메일
-3457	Maccao Braces X	맛카오Ｘ암
-3458	Maccao Faulds X	맛카오Ｘ펄드
-3459	Maccao Greaves X	맛카오Ｘ그리브
-3460	Maccao Cap X	맛카오Ｘ캡
-3461	Maccao Vest X	맛카오Ｘ리지스트
-3462	Maccao Guards X	맛카오Ｘ가드
-3463	Maccao Coat X	맛카오Ｘ코트
-3464	Maccao Leggings X	맛카오Ｘ레깅스
-3465	Velociprey Helm X	란포스Ｘ헬름
-3466	Velociprey Mail X	란포스Ｘ메일
-3467	Velociprey Braces X	란포스Ｘ암
-3468	Velociprey Tassets X	란포스Ｘ펄드
-3469	Velociprey Greaves X	란포스Ｘ그리브
-3470	Velociprey Cap X	란포스Ｘ캡
-3471	Velociprey Vest X	란포스Ｘ리지스트
-3472	Velociprey Guards X	란포스Ｘ가드
-3473	Velociprey Coat X	란포스Ｘ코트
-3474	Velociprey Leggings X	란포스Ｘ레깅스
+3444	Jaggi Helm X	재기Ｘ헬름
+3445	Jaggi Mail X	재기Ｘ메일
+3446	Jaggi Vambraces X	재기Ｘ암
+3447	Jaggi Faulds X	재기Ｘ펄드
+3448	Jaggi Greaves X	재기Ｘ그리브
+3449	Jaggi Cap X	재기Ｘ캡
+3450	Jaggi Vest X	재기Ｘ리지스트
+3451	Jaggi Guards X	재기Ｘ가드
+3452	Jaggi Coat X	재기Ｘ코트
+3453	Jaggi Leggings X	재기Ｘ레깅스
+3454	Jaggi Mask X	재기Ｘ페이크
+3455	Maccao Helm X	마카오Ｘ헬름
+3456	Maccao Mail X	마카오Ｘ메일
+3457	Maccao Braces X	마카오Ｘ암
+3458	Maccao Faulds X	마카오Ｘ펄드
+3459	Maccao Greaves X	마카오Ｘ그리브
+3460	Maccao Cap X	마카오Ｘ캡
+3461	Maccao Vest X	마카오Ｘ리지스트
+3462	Maccao Guards X	마카오Ｘ가드
+3463	Maccao Coat X	마카오Ｘ코트
+3464	Maccao Leggings X	마카오Ｘ레깅스
+3465	Velociprey Helm X	람포스Ｘ헬름
+3466	Velociprey Mail X	람포스Ｘ메일
+3467	Velociprey Braces X	람포스Ｘ암
+3468	Velociprey Tassets X	람포스Ｘ펄드
+3469	Velociprey Greaves X	람포스Ｘ그리브
+3470	Velociprey Cap X	람포스Ｘ캡
+3471	Velociprey Vest X	람포스Ｘ리지스트
+3472	Velociprey Guards X	람포스Ｘ가드
+3473	Velociprey Coat X	람포스Ｘ코트
+3474	Velociprey Leggings X	람포스Ｘ레깅스
 3475	Giaprey Helm X	기아노스Ｘ헬름
 3476	Giaprey Mail X	기아노스Ｘ메일
 3477	Giaprey Braces X	기아노스Ｘ암
@@ -3581,17 +3581,17 @@
 3581	Rhenoplos Guards X	리노프로Ｘ가드
 3582	Rhenoplos Coat X	리노프로Ｘ코트
 3583	Rhenoplos Leggings X	리노프로Ｘ레깅스
-3584	Bulldrome Helm X	팡고Ｘ헬름
-3585	Bulldrome Mail X	팡고Ｘ메일
-3586	Bulldrome Braces X	팡고Ｘ암
-3587	Bulldrome Faulds X	팡고Ｘ펄드
-3588	Bulldrome Greaves X	팡고Ｘ그리브
-3589	Bulldrome Cap X	팡고Ｘ캡
-3590	Bulldrome Vest X	팡고Ｘ리지스트
-3591	Bulldrome Guards X	팡고Ｘ가드
-3592	Bulldrome Coat X	팡고Ｘ코트
-3593	Bulldrome Leggings X	팡고Ｘ레깅스
-3594	Bullfango Mask X	불팡고Ｘ페이크
+3584	Bulldrome Helm X	팽고Ｘ헬름
+3585	Bulldrome Mail X	팽고Ｘ메일
+3586	Bulldrome Braces X	팽고Ｘ암
+3587	Bulldrome Faulds X	팽고Ｘ펄드
+3588	Bulldrome Greaves X	팽고Ｘ그리브
+3589	Bulldrome Cap X	팽고Ｘ캡
+3590	Bulldrome Vest X	팽고Ｘ리지스트
+3591	Bulldrome Guards X	팽고Ｘ가드
+3592	Bulldrome Coat X	팽고Ｘ코트
+3593	Bulldrome Leggings X	팽고Ｘ레깅스
+3594	Bullfango Mask X	불팽고Ｘ페이크
 3595	Arzuros Helm X	아시라Ｘ헬름
 3596	Arzuros Mail X	아시라Ｘ메일
 3597	Arzuros Vambraces X	아시라Ｘ암
@@ -3628,12 +3628,12 @@
 3628	Droth Vest X	도로스Ｘ리지스트
 3629	Droth Coat X	도로스Ｘ코트
 3630	Droth Leggings X	도로스Ｘ레깅스
-3631	Uroktor Torso X	코토르Ｘ메일
-3632	Uroktor Tassets X	코토르Ｘ펄드
-3633	Uroktor Vest X	코토르Ｘ리지스트
-3634	Uroktor Coat X	코토르Ｘ코트
+3631	Uroktor Torso X	코트르Ｘ메일
+3632	Uroktor Tassets X	코트르Ｘ펄드
+3633	Uroktor Vest X	코트르Ｘ리지스트
+3634	Uroktor Coat X	코트르Ｘ코트
 3635	Larinoth Mask X	리모스Ｘ페이크
-3636	Gargwa Mask X	가과Ｘ페이크
+3636	Gargwa Mask X	가구아Ｘ페이크
 3637	Moofah Head X	무파Ｘ헤드
 3638	Moofah Suit X	무파Ｘ슈트
 3639	Moofah Claws X	무파Ｘ글러브
@@ -3642,11 +3642,11 @@
 3642	Moofah Jacket X	무파Ｘ재킷
 3643	Moofah Sleeves X	무파Ｘ커프스
 3644	Moofah Coat X	무파Ｘ코트
-3645	Velociprey Head X	란포스Ｘ헤드
+3645	Velociprey Head X	람포스Ｘ헤드
 3646	Velociprey Body X	란포슈트Ｘ바디
 3647	Velociprey Claws X	란포슈트Ｘ글러브
 3648	Velociprey Feet X	란포슈트Ｘ풋
-3649	Velociprey Mask X	란포스Ｘ페이스
+3649	Velociprey Mask X	람포스Ｘ페이스
 3650	Velociprey Suit X	란포슈트Ｘ웨어
 3651	Velociprey Gloves X	란포슈트Ｘ핸드
 3652	Velociprey Tights X	란포슈트Ｘ타이츠
@@ -3734,26 +3734,26 @@
 3734	Lagombi Guards X	울크Ｘ가드
 3735	Lagombi Coat X	울크Ｘ코트
 3736	Lagombi Leggings X	울크Ｘ레깅스
-3737	Gypceros Helm X	게료스Ｘ헬름
-3738	Gypceros Mail X	게료스Ｘ메일
-3739	Gypceros Vambraces X	게료스Ｘ암
-3740	Gypceros Tassets X	게료스Ｘ펄드
-3741	Gypceros Greaves X	게료스Ｘ그리브
-3742	Gypceros Cap X	게료스Ｘ캡
-3743	Gypceros Vest X	게료스Ｘ리지스트
-3744	Gypceros Guards X	게료스Ｘ가드
-3745	Gypceros Coat X	게료스Ｘ코트
-3746	Gypceros Leggings X	게료스Ｘ레깅스
-3747	Gypceros Helm XR	게료스XR헬름
-3748	Gypceros Mail XR	게료스XR메일
-3749	Gypceros Braces XR	게료스XR암
-3750	Gypceros Tassets XR	게료스XR펄드
-3751	Gypceros Greaves XR	게료스XR그리브
-3752	Gypceros Cap XR	게료스XR캡
-3753	Gypceros Vest XR	게료스XR리지스트
-3754	Gypceros Guards XR	게료스XR가드
-3755	Gypceros Coat XR	게료스XR코트
-3756	Gypceros Leggings XR	게료스XR레깅스
+3737	Gypceros Helm X	게리오스Ｘ헬름
+3738	Gypceros Mail X	게리오스Ｘ메일
+3739	Gypceros Vambraces X	게리오스Ｘ암
+3740	Gypceros Tassets X	게리오스Ｘ펄드
+3741	Gypceros Greaves X	게리오스Ｘ그리브
+3742	Gypceros Cap X	게리오스Ｘ캡
+3743	Gypceros Vest X	게리오스Ｘ리지스트
+3744	Gypceros Guards X	게리오스Ｘ가드
+3745	Gypceros Coat X	게리오스Ｘ코트
+3746	Gypceros Leggings X	게리오스Ｘ레깅스
+3747	Gypceros Helm XR	게리오스XR헬름
+3748	Gypceros Mail XR	게리오스XR메일
+3749	Gypceros Braces XR	게리오스XR암
+3750	Gypceros Tassets XR	게리오스XR펄드
+3751	Gypceros Greaves XR	게리오스XR그리브
+3752	Gypceros Cap XR	게리오스XR캡
+3753	Gypceros Vest XR	게리오스XR리지스트
+3754	Gypceros Guards XR	게리오스XR가드
+3755	Gypceros Coat XR	게리오스XR코트
+3756	Gypceros Leggings XR	게리오스XR레깅스
 3757	Tetsucabra Helm X	카브라Ｘ헬름
 3758	Tetsucabra Mail X	카브라Ｘ메일
 3759	Tetsucabra Braces X	카브라Ｘ암
@@ -3824,26 +3824,26 @@
 3824	Conga Guards GX	GX콩가 가드
 3825	Conga Coat GX	GX콩가 코트
 3826	Conga Leggings GX	GX콩가 레깅스
-3827	Ludroth Helm X	루도로스Ｘ헬름
-3828	Ludroth Mail X	루도로스Ｘ메일
-3829	Ludroth Vambraces X	루도로스Ｘ암
-3830	Ludroth Faulds X	루도로스Ｘ펄드
-3831	Ludroth Greaves X	루도로스Ｘ그리브
-3832	Ludroth Cap X	루도로스Ｘ캡
-3833	Ludroth Vest X	루도로스Ｘ리지스트
-3834	Ludroth Guards X	루도로스Ｘ가드
-3835	Ludroth Coat X	루도로스Ｘ코트
-3836	Ludroth Leggings X	루도로스Ｘ레깅스
-3837	Ludroth Helm XR	루도로스XR헬름
-3838	Ludroth Mail XR	루도로스XR메일
-3839	Ludroth Braces XR	루도로스XR암
-3840	Ludroth Faulds XR	루도로스XR펄드
-3841	Ludroth Greaves XR	루도로스XR그리브
-3842	Ludroth Cap XR	루도로스XR캡
-3843	Ludroth Vest XR	루도로스XR리지스트
-3844	Ludroth Guards XR	루도로스XR가드
-3845	Ludroth Coat XR	루도로스XR코트
-3846	Ludroth Leggings XR	루도로스XR레깅스
+3827	Ludroth Helm X	루드로스Ｘ헬름
+3828	Ludroth Mail X	루드로스Ｘ메일
+3829	Ludroth Vambraces X	루드로스Ｘ암
+3830	Ludroth Faulds X	루드로스Ｘ펄드
+3831	Ludroth Greaves X	루드로스Ｘ그리브
+3832	Ludroth Cap X	루드로스Ｘ캡
+3833	Ludroth Vest X	루드로스Ｘ리지스트
+3834	Ludroth Guards X	루드로스Ｘ가드
+3835	Ludroth Coat X	루드로스Ｘ코트
+3836	Ludroth Leggings X	루드로스Ｘ레깅스
+3837	Ludroth Helm XR	루드로스XR헬름
+3838	Ludroth Mail XR	루드로스XR메일
+3839	Ludroth Braces XR	루드로스XR암
+3840	Ludroth Faulds XR	루드로스XR펄드
+3841	Ludroth Greaves XR	루드로스XR그리브
+3842	Ludroth Cap XR	루드로스XR캡
+3843	Ludroth Vest XR	루드로스XR리지스트
+3844	Ludroth Guards XR	루드로스XR가드
+3845	Ludroth Coat XR	루드로스XR코트
+3846	Ludroth Leggings XR	루드로스XR레깅스
 3847	Barroth Helm X	보로스Ｘ헬름
 3848	Barroth Mail X	보로스Ｘ메일
 3849	Barroth Vambraces X	보로스Ｘ암
@@ -3963,26 +3963,26 @@
 3963	Plesioth Guards X	가노스Ｘ가드
 3964	---	장비Ｘ없음
 3965	Plesioth Leggings X	가노스 레깅스
-3966	Blango Helm X	브랑고Ｘ헬름
-3967	Blango Mail X	브랑고Ｘ메일
-3968	Blango Vambraces X	브랑고Ｘ암
-3969	Blango Tassets X	브랑고Ｘ펄드
-3970	Blango Greaves X	브랑고Ｘ그리브
-3971	Blango Cap X	브랑고Ｘ캡
-3972	Blango Vest X	브랑고Ｘ리지스트
-3973	Blango Guards X	브랑고Ｘ가드
-3974	Blango Coat X	브랑고Ｘ코트
-3975	Blango Leggings X	브랑고Ｘ레깅스
-3976	Blango Helm GX	GX브랑고 헬름
-3977	Blango Mail GX	GX브랑고 메일
-3978	Blango Vambraces GX	GX브랑고 암
-3979	Blango Tassets GX	GX브랑고 펄드
-3980	Blango Greaves GX	GX브랑고 그리브
-3981	Blango Cap GX	GX브랑고 캡
-3982	Blango Vest GX	GX브랑고 리지스트
-3983	Blango Guards GX	GX브랑고 가드
-3984	Blango Coat GX	GX브랑고 코트
-3985	Blango Leggings GX	GX브랑고 레깅스
+3966	Blango Helm X	블랑고Ｘ헬름
+3967	Blango Mail X	블랑고Ｘ메일
+3968	Blango Vambraces X	블랑고Ｘ암
+3969	Blango Tassets X	블랑고Ｘ펄드
+3970	Blango Greaves X	블랑고Ｘ그리브
+3971	Blango Cap X	블랑고Ｘ캡
+3972	Blango Vest X	블랑고Ｘ리지스트
+3973	Blango Guards X	블랑고Ｘ가드
+3974	Blango Coat X	블랑고Ｘ코트
+3975	Blango Leggings X	블랑고Ｘ레깅스
+3976	Blango Helm GX	GX블랑고 헬름
+3977	Blango Mail GX	GX블랑고 메일
+3978	Blango Vambraces GX	GX블랑고 암
+3979	Blango Tassets GX	GX블랑고 펄드
+3980	Blango Greaves GX	GX블랑고 그리브
+3981	Blango Cap GX	GX블랑고 캡
+3982	Blango Vest GX	GX블랑고 리지스트
+3983	Blango Guards GX	GX블랑고 가드
+3984	Blango Coat GX	GX블랑고 코트
+3985	Blango Leggings GX	GX블랑고 레깅스
 3986	Lava Helm X	라바Ｘ헬름
 3987	Lava Mail X	라바Ｘ메일
 3988	Lava Vambraces X	라바Ｘ암
@@ -4082,26 +4082,26 @@
 4082	GX Umi Ocean Jacket	GX해연【상의】
 4083	GX Umi Ocean Sleeves	GX해연【소매】
 4084	GX Umi Ocean Hakama	GX해연【하의】
-4085	G. Knight Feather X	Ｇ・나이트Ｘ페더
-4086	G. Knight Suit X	Ｇ・나이트Ｘ슈트
-4087	G. Knight Gloves X	Ｇ・나이트Ｘ글러브
-4088	G. Knight Coat X	Ｇ・나이트Ｘ코일
-4089	G. Knight Boots X	Ｇ・나이트Ｘ부츠
-4090	G. Knight Mask X	Ｇ・나이트Ｘ마스크
-4091	G. Knight Vest X	Ｇ・나이트Ｘ베스트
-4092	G. Knight Sleeves X	Ｇ・나이트Ｘ커프스
-4093	G. Knight Kilt X	Ｇ・나이트Ｘ스커트
-4094	G. Knight Tights X	Ｇ・나이트Ｘ타이츠
-4095	Guild Bard Lobos X	Ｇ・버드Ｘ로포스
-4096	Guild Bard Bolero X	Ｇ・버드Ｘ슈트
-4097	Guild Bard Braces X	Ｇ・버드Ｘ암
-4098	Guild Bard Coil X	Ｇ・버드Ｘ코일
-4099	Guild Bard Boots X	Ｇ・버드Ｘ부츠
-4100	Guild Bard Hat X	Ｇ・버드Ｘ햇
-4101	Guild Bard Vest X	Ｇ・버드Ｘ베스트
-4102	Guild Bard Sleeves X	Ｇ・버드Ｘ커프스
-4103	Guild Bard Coat X	Ｇ・버드Ｘ코트
-4104	Guild Bard Gaiters X	Ｇ・버드Ｘ풋
+4085	G. Knight Feather X	Ｇ 나이트Ｘ페더
+4086	G. Knight Suit X	Ｇ 나이트Ｘ슈트
+4087	G. Knight Gloves X	Ｇ 나이트Ｘ글러브
+4088	G. Knight Coat X	Ｇ 나이트Ｘ코일
+4089	G. Knight Boots X	Ｇ 나이트Ｘ부츠
+4090	G. Knight Mask X	Ｇ 나이트Ｘ마스크
+4091	G. Knight Vest X	Ｇ 나이트Ｘ베스트
+4092	G. Knight Sleeves X	Ｇ 나이트Ｘ커프스
+4093	G. Knight Kilt X	Ｇ 나이트Ｘ스커트
+4094	G. Knight Tights X	Ｇ 나이트Ｘ타이츠
+4095	Guild Bard Lobos X	Ｇ 버드Ｘ로포스
+4096	Guild Bard Bolero X	Ｇ 버드Ｘ슈트
+4097	Guild Bard Braces X	Ｇ 버드Ｘ암
+4098	Guild Bard Coil X	Ｇ 버드Ｘ코일
+4099	Guild Bard Boots X	Ｇ 버드Ｘ부츠
+4100	Guild Bard Hat X	Ｇ 버드Ｘ햇
+4101	Guild Bard Vest X	Ｇ 버드Ｘ베스트
+4102	Guild Bard Sleeves X	Ｇ 버드Ｘ커프스
+4103	Guild Bard Coat X	Ｇ 버드Ｘ코트
+4104	Guild Bard Gaiters X	Ｇ 버드Ｘ풋
 4105	Dark Metal Boots X	다크메탈Ｘ부츠
 4106	Dark Metal Feet X	다크메탈Ｘ풋
 4107	Chrome Metal Coil X	크롬메탈Ｘ코일
@@ -4169,16 +4169,16 @@
 4169	Deadeye's Gauntlets	성새은밀대【장갑】
 4170	Deadeye's Belt	성새은밀대【탄띠】
 4171	Deadeye's Espadrilles	성새은밀대【버선】
-4172	Shinobi Heaven Mask Goku	인내의 가면・극천
-4173	Shinobi Heaven Suit Goku	인내의 의복・극천
-4174	Shinobi Heaven Kote Goku	인내의 토시・극천
-4175	Shinobi Heaven Belt Goku	인내의 띠・극천
-4176	Shinobi Heaven Boots Goku	인내의 버선・극천
-4177	Shinobi Land Mask Goku	인내의 가면・극지
-4178	Shinobi Land Suit Goku	인내의 의복・극지
-4179	Shinobi Land Kote Goku	인내의 토시・극지
-4180	Shinobi Land Belt Goku	인내의 띠・극지
-4181	Shinobi Land Boots Goku	인내의 버선・극지
+4172	Shinobi Heaven Mask Goku	인내의 가면 극천
+4173	Shinobi Heaven Suit Goku	인내의 의복 극천
+4174	Shinobi Heaven Kote Goku	인내의 토시 극천
+4175	Shinobi Heaven Belt Goku	인내의 띠 극천
+4176	Shinobi Heaven Boots Goku	인내의 버선 극천
+4177	Shinobi Land Mask Goku	인내의 가면 극지
+4178	Shinobi Land Suit Goku	인내의 의복 극지
+4179	Shinobi Land Kote Goku	인내의 토시 극지
+4180	Shinobi Land Belt Goku	인내의 띠 극지
+4181	Shinobi Land Boots Goku	인내의 버선 극지
 4182	Master's Earcuff X	마스터Ｘ이어커프
 4183	Master's Mail X	마스터Ｘ메일
 4184	Master's Gauntlets X	마스터Ｘ암
@@ -4189,16 +4189,16 @@
 4189	Master's Guards X	마스터Ｘ가드
 4190	Master's Coat X	마스터Ｘ코트
 4191	Master's Leggings X	마스터Ｘ레깅스
-4192	Grand Toka Kabuto	동화・진【투구】
-4193	Grand Toka Doate	동화・진【갑옷】
-4194	Grand Toka Kote	동화・진【장갑】
-4195	Grand Toka Koshiate	동화・진【허리띠】
-4196	Grand Toka Gusoku	동화・진【각갑】
-4197	Grand Mitsuaoi Kabuto	삼규・진【투구】
-4198	Grand Mitsuaoi Doate	삼규・진【갑옷】
-4199	Grand Mitsuaoi Kote	삼규・진【장갑】
-4200	Grand Mitsuaoi Koshiate	삼규・진【허리띠】
-4201	Grand Mitsuaoi Gusoku	삼규・진【각갑】
+4192	Grand Toka Kabuto	동화 진【투구】
+4193	Grand Toka Doate	동화 진【갑옷】
+4194	Grand Toka Kote	동화 진【장갑】
+4195	Grand Toka Koshiate	동화 진【허리띠】
+4196	Grand Toka Gusoku	동화 진【각갑】
+4197	Grand Mitsuaoi Kabuto	삼규 진【투구】
+4198	Grand Mitsuaoi Doate	삼규 진【갑옷】
+4199	Grand Mitsuaoi Kote	삼규 진【장갑】
+4200	Grand Mitsuaoi Koshiate	삼규 진【허리띠】
+4201	Grand Mitsuaoi Gusoku	삼규 진【각갑】
 4202	Yaksha Mask	야차【어면】
 4203	Yaksha Raiment	야차【날개옷】
 4204	Yaksha Braces	야차【어수】
@@ -4619,16 +4619,16 @@
 4619	Valstrax Guards X	바루크Ｘ가드
 4620	Valstrax Coat X	바루크Ｘ코트
 4621	Valstrax Leggings X	바루크Ｘ레깅스
-4622	Grand God's Peer Mask	제천 묶은머리・진
-4623	Grand God's Peer Robe	제천 하오리・진
-4624	Grand God's Peer Arms	제천 장갑・진
-4625	Grand God's Peer Belt	제천 띠・진
-4626	Grand God's Peer Feet	제천 바지・진
-4627	Grand Hermit Mask	선사 묶은머리・진
-4628	Grand Hermit Robe	선사 하오리・진
-4629	Grand Hermit Arms	선사 장갑・진
-4630	Grand Hermit Belt	선사 띠・진
-4631	Grand Hermit Feet	선사 바지・진
+4622	Grand God's Peer Mask	제천 묶은머리 진
+4623	Grand God's Peer Robe	제천 하오리 진
+4624	Grand God's Peer Arms	제천 장갑 진
+4625	Grand God's Peer Belt	제천 띠 진
+4626	Grand God's Peer Feet	제천 바지 진
+4627	Grand Hermit Mask	선사 묶은머리 진
+4628	Grand Hermit Robe	선사 하오리 진
+4629	Grand Hermit Arms	선사 장갑 진
+4630	Grand Hermit Belt	선사 띠 진
+4631	Grand Hermit Feet	선사 바지 진
 4632	Vangis Helm X	반기스Ｘ헬름
 4633	Vangis Mail X	반기스Ｘ메일
 4634	Vangis Vambraces X	반기스Ｘ암
@@ -4689,46 +4689,46 @@
 4689	Guardian Guards Z	가디언Ｚ가드
 4690	Guardian Coat Z	가디언Ｚ코트
 4691	Guardian Pants Z	가디언Ｚ풋
-4692	Blue Guild Lobos X	Ｇ・가드Ｘ로포스 창
-4693	Blue Guild Suit X	Ｇ・가드Ｘ슈트 창
-4694	Blue Guild Gloves X	Ｇ・가드Ｘ글러브 창
-4695	Blue Guild Coil X	Ｇ・가드Ｘ코일 창
-4696	Blue Guild Boots X	Ｇ・가드Ｘ부츠 창
-4697	Blue Guild Mask X	Ｇ・가드Ｘ마스크 창
-4698	Blue Guild Vest X	Ｇ・가드Ｘ베스트 창
-4699	Blue Guild Sleeves X	Ｇ・가드Ｘ커프스 창
-4700	Blue Guild Coat X	Ｇ・가드Ｘ코트 창
-4701	Blue Guild Tights X	Ｇ・가드Ｘ타이츠 창
-4702	Blue Guild Tricorne X	Ｇ・가드Ｘ햇 창
-4703	Blue Guild Suit X	Ｇ・가드Ｘ슈트 창
-4704	Blue Guild Gloves X	Ｇ・가드Ｘ글러브 창
-4705	Blue Guild Coil X	Ｇ・가드Ｘ코일 창
-4706	Blue Guild Boots X	Ｇ・가드Ｘ부츠 창
-4707	Blue Guild Piercing X	Ｇ・가드Ｘ피어스 창
-4708	Blue Guild Vest X	Ｇ・가드Ｘ베스트 창
-4709	Blue Guild Sleeves X	Ｇ・가드Ｘ커프스 창
-4710	Blue Guild Coat X	Ｇ・가드Ｘ코트 창
-4711	Blue Guild Tights X	Ｇ・가드Ｘ타이츠 창
-4712	Red Guild Lobos X	Ｇ・가드Ｘ로포스 홍
-4713	Red Guild Suit X	Ｇ・가드Ｘ슈트 홍
-4714	Red Guild Gloves X	Ｇ・가드Ｘ글러브 홍
-4715	Red Guild Coil X	Ｇ・가드Ｘ코일 홍
-4716	Red Guild Boots X	Ｇ・가드Ｘ부츠 홍
-4717	Red Guild Mask X	Ｇ・가드Ｘ마스크 홍
-4718	Red Guild Vest X	Ｇ・가드Ｘ베스트 홍
-4719	Red Guild Sleeves X	Ｇ・가드Ｘ커프스 홍
-4720	Red Guild Coat X	Ｇ・가드Ｘ코트 홍
-4721	Red Guild Tights X	Ｇ・가드Ｘ타이츠 홍
-4722	Red Guild Tricorne X	Ｇ・가드Ｘ햇 홍
-4723	Red Guild Suit X	Ｇ・가드Ｘ슈트 홍
-4724	Red Guild Gloves X	Ｇ・가드Ｘ글러브 홍
-4725	Red Guild Coil X	Ｇ・가드Ｘ코일 홍
-4726	Red Guild Boots X	Ｇ・가드Ｘ부츠 홍
-4727	Red Guild Piercing X	Ｇ・가드Ｘ피어스 홍
-4728	Red Guild Vest X	Ｇ・가드Ｘ베스트 홍
-4729	Red Guild Sleeves X	Ｇ・가드Ｘ커프스 홍
-4730	Red Guild Coat X	Ｇ・가드Ｘ코트 홍
-4731	Red Guild Tights X	Ｇ・가드Ｘ타이츠 홍
+4692	Blue Guild Lobos X	Ｇ 가드Ｘ로포스 창
+4693	Blue Guild Suit X	Ｇ 가드Ｘ슈트 창
+4694	Blue Guild Gloves X	Ｇ 가드Ｘ글러브 창
+4695	Blue Guild Coil X	Ｇ 가드Ｘ코일 창
+4696	Blue Guild Boots X	Ｇ 가드Ｘ부츠 창
+4697	Blue Guild Mask X	Ｇ 가드Ｘ마스크 창
+4698	Blue Guild Vest X	Ｇ 가드Ｘ베스트 창
+4699	Blue Guild Sleeves X	Ｇ 가드Ｘ커프스 창
+4700	Blue Guild Coat X	Ｇ 가드Ｘ코트 창
+4701	Blue Guild Tights X	Ｇ 가드Ｘ타이츠 창
+4702	Blue Guild Tricorne X	Ｇ 가드Ｘ햇 창
+4703	Blue Guild Suit X	Ｇ 가드Ｘ슈트 창
+4704	Blue Guild Gloves X	Ｇ 가드Ｘ글러브 창
+4705	Blue Guild Coil X	Ｇ 가드Ｘ코일 창
+4706	Blue Guild Boots X	Ｇ 가드Ｘ부츠 창
+4707	Blue Guild Piercing X	Ｇ 가드Ｘ피어스 창
+4708	Blue Guild Vest X	Ｇ 가드Ｘ베스트 창
+4709	Blue Guild Sleeves X	Ｇ 가드Ｘ커프스 창
+4710	Blue Guild Coat X	Ｇ 가드Ｘ코트 창
+4711	Blue Guild Tights X	Ｇ 가드Ｘ타이츠 창
+4712	Red Guild Lobos X	Ｇ 가드Ｘ로포스 홍
+4713	Red Guild Suit X	Ｇ 가드Ｘ슈트 홍
+4714	Red Guild Gloves X	Ｇ 가드Ｘ글러브 홍
+4715	Red Guild Coil X	Ｇ 가드Ｘ코일 홍
+4716	Red Guild Boots X	Ｇ 가드Ｘ부츠 홍
+4717	Red Guild Mask X	Ｇ 가드Ｘ마스크 홍
+4718	Red Guild Vest X	Ｇ 가드Ｘ베스트 홍
+4719	Red Guild Sleeves X	Ｇ 가드Ｘ커프스 홍
+4720	Red Guild Coat X	Ｇ 가드Ｘ코트 홍
+4721	Red Guild Tights X	Ｇ 가드Ｘ타이츠 홍
+4722	Red Guild Tricorne X	Ｇ 가드Ｘ햇 홍
+4723	Red Guild Suit X	Ｇ 가드Ｘ슈트 홍
+4724	Red Guild Gloves X	Ｇ 가드Ｘ글러브 홍
+4725	Red Guild Coil X	Ｇ 가드Ｘ코일 홍
+4726	Red Guild Boots X	Ｇ 가드Ｘ부츠 홍
+4727	Red Guild Piercing X	Ｇ 가드Ｘ피어스 홍
+4728	Red Guild Vest X	Ｇ 가드Ｘ베스트 홍
+4729	Red Guild Sleeves X	Ｇ 가드Ｘ커프스 홍
+4730	Red Guild Coat X	Ｇ 가드Ｘ코트 홍
+4731	Red Guild Tights X	Ｇ 가드Ｘ타이츠 홍
 4732	Black Head X	블랙Ｘ헤드
 4733	Black Hide X	블랙Ｘ하이드
 4734	Black Claw X	블랙Ｘ크로우
@@ -4791,10 +4791,10 @@
 4791	Barman's Sleeves	세리오 커프스
 4792	Barman's Coat	세리오 코트
 4793	Barman's Pants	세리오 풋
-4794	Blooming Bherna	베르나・피오레
-4795	Verdant Kokoto	코코트・알베로
-4796	Snowy Pokke	폿케・네베
-4797	Thermal Yukumo	유쿠모・테루메
+4794	Blooming Bherna	베르나 피오레
+4795	Verdant Kokoto	코코트 알베로
+4796	Snowy Pokke	폿케 네베
+4797	Thermal Yukumo	유쿠모 테루메
 4798	Candid Earring	허심의 피어스
 4799	Desire Earring	절망의 피어스
 4800	Kushala Glare X	크샤나Ｘ앵크
@@ -4867,66 +4867,66 @@
 4867	Kaiser Guards GX	GX카이저 가드
 4868	Kaiser Coat GX	GX카이저 코트
 4869	Kaiser Leggings GX	GX카이저 레깅스
-4870	Silver Solhelm Z	Ｓ・솔Ｚ헬름
-4871	Silver Solmail Z	Ｓ・솔Ｚ메일
-4872	Silver Solbraces Z	Ｓ・솔Ｚ암
-4873	Silver Solcoil Z	Ｓ・솔Ｚ코일
-4874	Silver Solgreaves Z	Ｓ・솔Ｚ그리브
-4875	Silver Solcap Z	Ｓ・솔Ｚ캡
-4876	Silver Solvest Z	Ｓ・솔Ｚ리지스트
-4877	Silver Solguards Z	Ｓ・솔Ｚ가드
-4878	Silver Solcoat Z	Ｓ・솔Ｚ코트
-4879	Silver Solleggings Z	Ｓ・솔Ｚ레깅스
-4880	GX Silver Solhelm	GXＳ・솔 헬름
-4881	GX Silver Solmail	GXＳ・솔 메일
-4882	GX Silver Solbraces	GXＳ・솔 암
-4883	GX Silver Solcoil	GXＳ・솔 코일
-4884	GX Silver Solgreaves	GXＳ・솔 그리브
-4885	GX Silver Solcap	GXＳ・솔 캡
-4886	GX Silver Solvest	GXＳ・솔 리지스트
-4887	GX Silver Solguards	GXＳ・솔 가드
-4888	GX Silver Solcoat	GXＳ・솔 코트
-4889	GX Silver Solleggings	GXＳ・솔 레깅스
-4890	Silver Solhelm XR	Ｓ・솔XR헬름
-4891	Silver Solmail XR	Ｓ・솔XR메일
-4892	Silver Solbraces XR	Ｓ・솔XR암
-4893	Silver Solfaulds XR	Ｓ・솔XR펄드
-4894	Silver Solgreaves XR	Ｓ・솔XR그리브
-4895	Silver Solcap XR	Ｓ・솔XR캡
-4896	Silver Solvest XR	Ｓ・솔XR리지스트
-4897	Silver Solguards XR	Ｓ・솔XR가드
-4898	Silver Solcoat XR	Ｓ・솔XR코트
-4899	Silver Solleggings XR	Ｓ・솔XR레깅스
-4900	Golden Lunehelm Z	Ｇ・루나Ｚ헬름
-4901	Golden Lunemail Z	Ｇ・루나Ｚ메일
-4902	Golden Lunebraces Z	Ｇ・루나Ｚ암
-4903	Golden Lunecoil Z	Ｇ・루나Ｚ코일
-4904	Golden Lunegreaves Z	Ｇ・루나Ｚ그리브
-4905	Golden Lunecap Z	Ｇ・루나Ｚ캡
-4906	Golden Lunevest Z	Ｇ・루나Ｚ리지스트
-4907	Golden Luneguards Z	Ｇ・루나Ｚ가드
-4908	Golden Lunecoat Z	Ｇ・루나Ｚ코트
-4909	Golden Luneleggings Z	Ｇ・루나Ｚ레깅스
-4910	GX Golden Lunehelm	GXＧ・루나 헬름
-4911	GX Golden Lunemail	GXＧ・루나 메일
-4912	GX Golden Lunebraces	GXＧ・루나 암
-4913	GX Golden Lunecoil	GXＧ・루나 코일
-4914	GX Gold Lunegreaves	GXＧ・루나 그리브
-4915	GX Golden Lunecap	GXＧ・루나 캡
-4916	GX Golden Lunevest	GXＧ・루나 리지스트
-4917	GX Golden Luneguards	GXＧ・루나 가드
-4918	GX Golden Lunecoat	GXＧ・루나 코트
-4919	GX Gold Luneleggings	GXＧ・루나 레깅스
-4920	Grand Divine Ire Mask	노천 묶은머리・진
-4921	Grand Divine Ire Haori	노천 하오리・진
-4922	Grand Divine Ire Kote	노천 장갑・진
-4923	Grand Divine Ire Obi	노천 띠・진
-4924	Grand Divine Ire Hakama	노천 바지・진
-4925	Grand Crusher Mask	심멸 가면・진
-4926	Grand Crusher Garb	심멸 장속・진
-4927	Grand Crusher Braces	심멸 장갑・진
-4928	Grand Crusher Belt	심멸 띠・진
-4929	Grand Mind Crusher Tabi	심멸 버선・진
+4870	Silver Solhelm Z	Ｓ 솔Ｚ헬름
+4871	Silver Solmail Z	Ｓ 솔Ｚ메일
+4872	Silver Solbraces Z	Ｓ 솔Ｚ암
+4873	Silver Solcoil Z	Ｓ 솔Ｚ코일
+4874	Silver Solgreaves Z	Ｓ 솔Ｚ그리브
+4875	Silver Solcap Z	Ｓ 솔Ｚ캡
+4876	Silver Solvest Z	Ｓ 솔Ｚ리지스트
+4877	Silver Solguards Z	Ｓ 솔Ｚ가드
+4878	Silver Solcoat Z	Ｓ 솔Ｚ코트
+4879	Silver Solleggings Z	Ｓ 솔Ｚ레깅스
+4880	GX Silver Solhelm	GXＳ 솔 헬름
+4881	GX Silver Solmail	GXＳ 솔 메일
+4882	GX Silver Solbraces	GXＳ 솔 암
+4883	GX Silver Solcoil	GXＳ 솔 코일
+4884	GX Silver Solgreaves	GXＳ 솔 그리브
+4885	GX Silver Solcap	GXＳ 솔 캡
+4886	GX Silver Solvest	GXＳ 솔 리지스트
+4887	GX Silver Solguards	GXＳ 솔 가드
+4888	GX Silver Solcoat	GXＳ 솔 코트
+4889	GX Silver Solleggings	GXＳ 솔 레깅스
+4890	Silver Solhelm XR	Ｓ 솔XR헬름
+4891	Silver Solmail XR	Ｓ 솔XR메일
+4892	Silver Solbraces XR	Ｓ 솔XR암
+4893	Silver Solfaulds XR	Ｓ 솔XR펄드
+4894	Silver Solgreaves XR	Ｓ 솔XR그리브
+4895	Silver Solcap XR	Ｓ 솔XR캡
+4896	Silver Solvest XR	Ｓ 솔XR리지스트
+4897	Silver Solguards XR	Ｓ 솔XR가드
+4898	Silver Solcoat XR	Ｓ 솔XR코트
+4899	Silver Solleggings XR	Ｓ 솔XR레깅스
+4900	Golden Lunehelm Z	Ｇ 루나Ｚ헬름
+4901	Golden Lunemail Z	Ｇ 루나Ｚ메일
+4902	Golden Lunebraces Z	Ｇ 루나Ｚ암
+4903	Golden Lunecoil Z	Ｇ 루나Ｚ코일
+4904	Golden Lunegreaves Z	Ｇ 루나Ｚ그리브
+4905	Golden Lunecap Z	Ｇ 루나Ｚ캡
+4906	Golden Lunevest Z	Ｇ 루나Ｚ리지스트
+4907	Golden Luneguards Z	Ｇ 루나Ｚ가드
+4908	Golden Lunecoat Z	Ｇ 루나Ｚ코트
+4909	Golden Luneleggings Z	Ｇ 루나Ｚ레깅스
+4910	GX Golden Lunehelm	GXＧ 루나 헬름
+4911	GX Golden Lunemail	GXＧ 루나 메일
+4912	GX Golden Lunebraces	GXＧ 루나 암
+4913	GX Golden Lunecoil	GXＧ 루나 코일
+4914	GX Gold Lunegreaves	GXＧ 루나 그리브
+4915	GX Golden Lunecap	GXＧ 루나 캡
+4916	GX Golden Lunevest	GXＧ 루나 리지스트
+4917	GX Golden Luneguards	GXＧ 루나 가드
+4918	GX Golden Lunecoat	GXＧ 루나 코트
+4919	GX Gold Luneleggings	GXＧ 루나 레깅스
+4920	Grand Divine Ire Mask	노천 묶은머리 진
+4921	Grand Divine Ire Haori	노천 하오리 진
+4922	Grand Divine Ire Kote	노천 장갑 진
+4923	Grand Divine Ire Obi	노천 띠 진
+4924	Grand Divine Ire Hakama	노천 바지 진
+4925	Grand Crusher Mask	심멸 가면 진
+4926	Grand Crusher Garb	심멸 장속 진
+4927	Grand Crusher Braces	심멸 장갑 진
+4928	Grand Crusher Belt	심멸 띠 진
+4929	Grand Mind Crusher Tabi	심멸 버선 진
 4930	Esurient Helm Z	그리드Ｚ헬름
 4931	Esurient Mail Z	그리드Ｚ메일
 4932	Esurient Vambraces Z	그리드Ｚ암
@@ -5067,16 +5067,16 @@
 5067	Ukanlos Gauntlets X	우캄루Ｘ노키리페
 5068	Ukanlos Sash X	우캄루Ｘ잇케타리
 5069	Ukanlos Boots X	우캄루Ｘ치키르
-5070	Grand Tempest Crown	황전・진【관모】
-5071	Grand Tempest Robe	황천・진【옷】
-5072	Grand Tempest Sleeves	황천・진【소매】
-5073	Grand Tempest Obi	황천・진【띠】
-5074	Grand Tempest Hakama	황천・진【하의】
-5075	Grand Welkin Crown	창천・진【관모】
-5076	Grand Welkin Robe	창천・진【옷】
-5077	Grand Welkin Sleeves	창천・진【소매】
-5078	Grand Welkin Obi	창천・진【띠】
-5079	Grand Welkin Hakama	창천・진【하의】
+5070	Grand Tempest Crown	황전 진【관모】
+5071	Grand Tempest Robe	황천 진【옷】
+5072	Grand Tempest Sleeves	황천 진【소매】
+5073	Grand Tempest Obi	황천 진【띠】
+5074	Grand Tempest Hakama	황천 진【하의】
+5075	Grand Welkin Crown	창천 진【관모】
+5076	Grand Welkin Robe	창천 진【옷】
+5077	Grand Welkin Sleeves	창천 진【소매】
+5078	Grand Welkin Obi	창천 진【띠】
+5079	Grand Welkin Hakama	창천 진【하의】
 5080	Tempest Crown XR	황천전류【관모】
 5081	Tempest Robe XR	황천전류【옷】
 5082	Tempest Sleeves XR	황천전류【소매】
@@ -5087,16 +5087,16 @@
 5087	Welkin Sleeves XR	창천전류【소매】
 5088	Welkin Obi XR	창천전류【띠】
 5089	Welkin Hakama XR	창천전류【하의】
-5090	Grand Skeletal Skull	해장갑・진【두개골】
-5091	Grand Skeletal Sternum	해장갑・진【흉골】
-5092	Grand Skeletal Humerus	해장갑・진【상완골】
-5093	Grand Skeletal Hipbone	해장갑・진【허리뼈】
-5094	Grand Skeletal Femur	해장갑・진【대퇴골】
-5095	Grand Decayed Skull	시장갑・진【두개골】
-5096	Grand Decayed Sternum	시장갑・진【흉골】
-5097	Grand Decayed Humerus	시장갑・진【상완골】
-5098	Grand Decayed Hipbone	시장갑・진【허리뼈】
-5099	Grand Decayed Femur	시장갑・진【대퇴골】
+5090	Grand Skeletal Skull	해장갑 진【두개골】
+5091	Grand Skeletal Sternum	해장갑 진【흉골】
+5092	Grand Skeletal Humerus	해장갑 진【상완골】
+5093	Grand Skeletal Hipbone	해장갑 진【허리뼈】
+5094	Grand Skeletal Femur	해장갑 진【대퇴골】
+5095	Grand Decayed Skull	시장갑 진【두개골】
+5096	Grand Decayed Sternum	시장갑 진【흉골】
+5097	Grand Decayed Humerus	시장갑 진【상완골】
+5098	Grand Decayed Hipbone	시장갑 진【허리뼈】
+5099	Grand Decayed Femur	시장갑 진【대퇴골】
 5100	Astral Helm X	아스리스타Ｘ헬름
 5101	Astral Suit X	아스리스타Ｘ슈트
 5102	Astral Vambraces X	아스리스타Ｘ암
@@ -5541,46 +5541,46 @@
 5541	[JP] Star Rook Guards	스타루크 가드
 5542	[JP] Star Rook Coat	스타루크 코트
 5543	[JP] Star Rook Leggings	스타루크 레깅스
-5544	[JP] Promising Archhelm	서성・패【투구】
-5545	[JP] Promising Archplate	서성・패【갑옷】
-5546	[JP] Promising Archbraces	서성・패【장갑】
-5547	[JP] Promising Archgirdle	서성・패【허리띠】
-5548	[JP] Promising Archpleats	서성・패【각갑】
-5549	[JP] Halcyon Archhelm	경성・패【투구】
-5550	[JP] Halcyon Archplate	경성・패【갑옷】
-5551	[JP] Halcyon Archbraces	경성・패【장갑】
-5552	[JP] Halcyon Archgirdle	경성・패【허리띠】
-5553	[JP] Halcyon Archpleats	경성・패【각갑】
-5554	[JP] Lucid Miter	몽견・패【관모】
-5555	[JP] Lucid Archrobe	몽견・패【옷】
-5556	[JP] Lucid Archbraces	몽견・패【장갑】
-5557	[JP] Lucid Archgirdle	몽견・패【허리띠】
-5558	[JP] Lucid Archpleats	몽견・패【각갑】
-5559	[JP] Dreamy Miter	몽어・패【관모】
-5560	[JP] Dreamy Archrobe	몽어・패【옷】
-5561	[JP] Dreamy Archbraces	몽어・패【장갑】
-5562	[JP] Dreamy Archgirdle	몽어・패【허리띠】
-5563	[JP] Dreamy Archpleats	몽어・패【각갑】
-5564	[JP] Ruler Arcfire Kasa	열화・패【삿갓】
-5565	[JP] Ruler Arcfire Dogi	열화・패【갑옷】
-5566	[JP] Ruler Arcfire Kote	열화・패【장갑】
-5567	[JP] Ruler Arcfire Obi	열화・패【허리띠】
-5568	[JP] Ruler Arcfire Hakama	열화・패【하의】
-5569	[JP] Ruler Bonfire Kasa	활화・패【삿갓】
-5570	[JP] Ruler Bonfire Dogi	활화・패【갑옷】
-5571	[JP] Ruler Bonfire Kote	활화・패【장갑】
-5572	[JP] Ruler Bonfire Obi	활화・패【허리띠】
-5573	[JP] Ruler Bonfire Hakama	활화・패【하의】
-5574	[JP] Ruler Waka Kasa	와카・패【삿갓】
-5575	[JP] Ruler Waka Dogi	와카・패【갑옷】
-5576	[JP] Ruler Waka Kote	와카・패【장갑】
-5577	[JP] Ruler Waka Obi	와카・패【허리띠】
-5578	[JP] Ruler Waka Hakama	와카・패【각갑】
-5579	[JP] Ruler Wagaku Kasa	와가쿠・패【삿갓】
-5580	[JP] Ruler Wagaku Dogi	와가쿠・패【갑옷】
-5581	[JP] Ruler Wagaku Kote	와가쿠・패【장갑】
-5582	[JP] Ruler Wagaku Obi	와가쿠・패【허리띠】
-5583	[JP] Ruler Wagaku Hakama	와가쿠・패【각갑】
+5544	[JP] Promising Archhelm	서성 패【투구】
+5545	[JP] Promising Archplate	서성 패【갑옷】
+5546	[JP] Promising Archbraces	서성 패【장갑】
+5547	[JP] Promising Archgirdle	서성 패【허리띠】
+5548	[JP] Promising Archpleats	서성 패【각갑】
+5549	[JP] Halcyon Archhelm	경성 패【투구】
+5550	[JP] Halcyon Archplate	경성 패【갑옷】
+5551	[JP] Halcyon Archbraces	경성 패【장갑】
+5552	[JP] Halcyon Archgirdle	경성 패【허리띠】
+5553	[JP] Halcyon Archpleats	경성 패【각갑】
+5554	[JP] Lucid Miter	몽견 패【관모】
+5555	[JP] Lucid Archrobe	몽견 패【옷】
+5556	[JP] Lucid Archbraces	몽견 패【장갑】
+5557	[JP] Lucid Archgirdle	몽견 패【허리띠】
+5558	[JP] Lucid Archpleats	몽견 패【각갑】
+5559	[JP] Dreamy Miter	몽어 패【관모】
+5560	[JP] Dreamy Archrobe	몽어 패【옷】
+5561	[JP] Dreamy Archbraces	몽어 패【장갑】
+5562	[JP] Dreamy Archgirdle	몽어 패【허리띠】
+5563	[JP] Dreamy Archpleats	몽어 패【각갑】
+5564	[JP] Ruler Arcfire Kasa	열화 패【삿갓】
+5565	[JP] Ruler Arcfire Dogi	열화 패【갑옷】
+5566	[JP] Ruler Arcfire Kote	열화 패【장갑】
+5567	[JP] Ruler Arcfire Obi	열화 패【허리띠】
+5568	[JP] Ruler Arcfire Hakama	열화 패【하의】
+5569	[JP] Ruler Bonfire Kasa	활화 패【삿갓】
+5570	[JP] Ruler Bonfire Dogi	활화 패【갑옷】
+5571	[JP] Ruler Bonfire Kote	활화 패【장갑】
+5572	[JP] Ruler Bonfire Obi	활화 패【허리띠】
+5573	[JP] Ruler Bonfire Hakama	활화 패【하의】
+5574	[JP] Ruler Waka Kasa	와카 패【삿갓】
+5575	[JP] Ruler Waka Dogi	와카 패【갑옷】
+5576	[JP] Ruler Waka Kote	와카 패【장갑】
+5577	[JP] Ruler Waka Obi	와카 패【허리띠】
+5578	[JP] Ruler Waka Hakama	와카 패【각갑】
+5579	[JP] Ruler Wagaku Kasa	와가쿠 패【삿갓】
+5580	[JP] Ruler Wagaku Dogi	와가쿠 패【갑옷】
+5581	[JP] Ruler Wagaku Kote	와가쿠 패【장갑】
+5582	[JP] Ruler Wagaku Obi	와가쿠 패【허리띠】
+5583	[JP] Ruler Wagaku Hakama	와가쿠 패【각갑】
 5584	[JP] Fake Tama Head S	니세타마Ｓ머리타이츠
 5585	[JP] Fake Tama Body S	니세타마Ｓ몸통타이츠
 5586	[JP] Fake Tama Arms S	니세타마Ｓ팔타이츠
@@ -5654,16 +5654,16 @@
 5654	X Dino Jersey	Ｘ디노 저지
 5655	X Astalos Jacket	Ｘ젝스 재킷
 5656	X Astalos Jersey	Ｘ젝스 저지
-5657	Hiryu Sky Mask	비룡의 복면・천
-5658	Hiryu Sky Suit	비룡의 장속・천
-5659	Hiryu Sky Kote	비룡의 장갑・천
-5660	Hiryu Sky Belt	비룡의 띠・천
-5661	Hiryu Sky Boots	비룡의 버선・천
-5662	Hiryu Land Mask	비룡의 복면・지
-5663	Hiryu Land Suit	비룡의 장속・지
-5664	Hiryu Land Kote	비룡의 장갑・지
-5665	Hiryu Land Belt	비룡의 띠・지
-5666	Hiryu Land Boots	비룡의 버선・지
+5657	Hiryu Sky Mask	비룡의 복면 천
+5658	Hiryu Sky Suit	비룡의 장속 천
+5659	Hiryu Sky Kote	비룡의 장갑 천
+5660	Hiryu Sky Belt	비룡의 띠 천
+5661	Hiryu Sky Boots	비룡의 버선 천
+5662	Hiryu Land Mask	비룡의 복면 지
+5663	Hiryu Land Suit	비룡의 장속 지
+5664	Hiryu Land Kote	비룡의 장갑 지
+5665	Hiryu Land Belt	비룡의 띠 지
+5666	Hiryu Land Boots	비룡의 버선 지
 5667	[JP] Gon Helm	곤 헤드
 5668	[JP] Gon Mail	곤 슈트
 5669	[JP] Gon Braces	곤 암
@@ -5680,26 +5680,26 @@
 5680	Criminal Body	범인 바디
 5681	Criminal Hands	범인 밴드
 5682	Criminal Feet	범인 풋
-5683	[JP] Supreme Arcfire Kasa	열화・극【삿갓】
-5684	[JP] Supreme Arcfire Dogi	열화・극【갑옷】
-5685	[JP] Supreme Arcfire Kote	열화・극【장갑】
-5686	[JP] Supreme Arcfire Obi	열화・극【허리띠】
-5687	[JP] Supreme Arcfire Hakama	열화・극【하의】
-5688	[JP] Supreme Bonfire Kasa	활화・극【삿갓】
-5689	[JP] Supreme Bonfire Dogi	활화・극【갑옷】
-5690	[JP] Supreme Bonfire Kote	활화・극【장갑】
-5691	[JP] Supreme Bonfire Obi	활화・극【허리띠】
-5692	[JP] Supreme Bonfire Hakama	활화・극【하의】
-5693	[JP] Supreme Wagaku Kasa	와카・극【삿갓】
-5694	[JP] Supreme Wagaku Dogi	와카・극【갑옷】
-5695	[JP] Supreme Wagaku Kote	와카・극【장갑】
-5696	[JP] Supreme Wagaku Obi	와카・극【허리띠】
-5697	[JP] Supreme Wagaku Hakama	와카・극【각갑】
-5698	[JP] Supreme Wagaku Kasa	와가쿠・극【삿갓】
-5699	[JP] Supreme Wagaku Dogi	와가쿠・극【갑옷】
-5700	[JP] Supreme Wagaku Kote	와가쿠・극【장갑】
-5701	[JP] Supreme Wagaku Obi	와가쿠・극【허리띠】
-5702	[JP] Supreme Wagaku Hakama	와가쿠・극【각갑】
+5683	[JP] Supreme Arcfire Kasa	열화 극【삿갓】
+5684	[JP] Supreme Arcfire Dogi	열화 극【갑옷】
+5685	[JP] Supreme Arcfire Kote	열화 극【장갑】
+5686	[JP] Supreme Arcfire Obi	열화 극【허리띠】
+5687	[JP] Supreme Arcfire Hakama	열화 극【하의】
+5688	[JP] Supreme Bonfire Kasa	활화 극【삿갓】
+5689	[JP] Supreme Bonfire Dogi	활화 극【갑옷】
+5690	[JP] Supreme Bonfire Kote	활화 극【장갑】
+5691	[JP] Supreme Bonfire Obi	활화 극【허리띠】
+5692	[JP] Supreme Bonfire Hakama	활화 극【하의】
+5693	[JP] Supreme Wagaku Kasa	와카 극【삿갓】
+5694	[JP] Supreme Wagaku Dogi	와카 극【갑옷】
+5695	[JP] Supreme Wagaku Kote	와카 극【장갑】
+5696	[JP] Supreme Wagaku Obi	와카 극【허리띠】
+5697	[JP] Supreme Wagaku Hakama	와카 극【각갑】
+5698	[JP] Supreme Wagaku Kasa	와가쿠 극【삿갓】
+5699	[JP] Supreme Wagaku Dogi	와가쿠 극【갑옷】
+5700	[JP] Supreme Wagaku Kote	와가쿠 극【장갑】
+5701	[JP] Supreme Wagaku Obi	와가쿠 극【허리띠】
+5702	[JP] Supreme Wagaku Hakama	와가쿠 극【각갑】
 5703	Garo Helm	황금기사【투구】
 5704	Garo Plate	황금기사【갑옷】
 5705	Garo Gauntlets	황금기사【장갑】

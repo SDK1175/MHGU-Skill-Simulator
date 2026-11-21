@@ -3,8 +3,8 @@
 //! share the 7th row. A host mod (Wishlist, order 10) makes the row and the side panel; we only take part:
 //!  - publish our block (order 20, not a host): ready, our names and one-line descriptions
 //!  - open our window when the host bumps `request`
-//!  - leave the Hunter's Notes row to the host when one with a lower order exists (game_menu.rs checks `yield_row`)
-//! Without a host (Skill Simulator alone) game_menu.rs adds its own 7th row as before.
+//! Our own entry no longer uses Hunter's Notes: since 2026-11-21 game_menu.rs adds it to the start menu's top list,
+//! with or without a host (the host scan below is only logged).
 use core::sync::atomic::{AtomicBool, AtomicU32, Ordering};
 
 pub const MAGIC: [u8; 16] = *b"MHGU-MODMENU-V01";
@@ -53,8 +53,6 @@ static DESCS: [&core::ffi::CStr; 9] = [
     c"Busca conjuntos de armadura que activen las habilidades deseadas.",
 ];
 
-/// A host with a lower order exists: the Hunter's Notes row is the host's
-static YIELD: AtomicBool = AtomicBool::new(false);
 static SCANNED: AtomicBool = AtomicBool::new(false);
 /// Last `request` handled (u32::MAX until the first frame: the value at start is not a request)
 static LAST_REQUEST: AtomicU32 = AtomicU32::new(u32::MAX);
@@ -71,10 +69,6 @@ pub fn init() {
     }
 }
 
-/// Leave the Hunter's Notes row to the host
-pub fn yield_row() -> bool {
-    YIELD.load(Ordering::Relaxed)
-}
 
 /// The window can be opened now (same conditions as opening it from the menu). Set every frame by lib.
 pub fn set_ready(ready: bool) {
@@ -174,10 +168,9 @@ fn scan() {
     }
     match host {
         Some((order, addr)) => {
-            YIELD.store(true, Ordering::Relaxed);
-            info!("[skill-sim] mod menu host found (order {}, block {:08x}): Hunter's Notes row left to it", order, addr);
+            info!("[skill-sim] mod menu host found (order {}, block {:08x}): listed in its Mods panel too", order, addr);
         }
-        None => info!("[skill-sim] no mod menu host: own Hunter's Notes row"),
+        None => info!("[skill-sim] no mod menu host"),
     }
 }
 

@@ -45,6 +45,7 @@ mod window_view;
 mod ext_block;
 mod mod_menu;
 mod picture;
+mod purplelib;
 
 use core::{
     cell::UnsafeCell,

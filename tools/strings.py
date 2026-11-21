@@ -50,7 +50,7 @@ STRINGS = {
     'src_comet_pokke': (['Village ★10 "Beware the Comet', 'of Disaster", then the Pokke Chief'], ['마을 ★10「경외하라, 붉은 재앙의', '혜성을」 클리어 후 폿케 마을 촌장']),
     'src_comet_yukumo': (['Village ★10 "Beware the Comet', 'of Disaster", then the Yukumo Chief'], ['마을 ★10「경외하라, 붉은 재앙의', '혜성을」 클리어 후 유쿠모 마을 촌장']),
     'src_comet_argosy': (['Village ★10 "Beware the Comet', 'of Disaster", then the Argosy'], ['마을 ★10「경외하라, 붉은 재앙의', '혜성을」 클리어 후 용식선에서 받음']),
-    'src_kaiserin': (['Hub G★4 "Fiery Four-way Fracas", then', 'the Legendary Artisan on the Argosy'], ['집회소 G★4「개・쇄・참의 포위망을', '넘어」 클리어 후 용식선 전설의 장인']),
+    'src_kaiserin': (['Hub G★4 "Fiery Four-way Fracas", then', 'the Legendary Artisan on the Argosy'], ['집회소 G★4「개 쇄 참의 포위망을', '넘어」 클리어 후 용식선 전설의 장인']),
     'src_bloodbath': (['Post "Bloodbath G1: Hunt" yourself', 'and clear it, then the Pub Manager'], ['「【특수허가】오마수렵의뢰G1」을', '직접 수주해 클리어한 뒤', '집회주점 마스터에게서 받음']),
     'src_head_bherna': (['Village ★10 "Advanced: Guild\'s Greatest', 'Hit", then the Bherna Chief'], ['마을 ★10「고난도：길드로부터의 시련」', '클리어 후 베르나 마을 촌장']),
     'src_head_kokoto': (['Village ★10 "Advanced: Proof of a', 'Champion", then the Kokoto Chief'], ['마을 ★10「고난도：패자의 증명」', '클리어 후 코코트 마을 촌장']),

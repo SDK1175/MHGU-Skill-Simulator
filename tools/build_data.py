@@ -35,14 +35,12 @@ def main() -> int:
     for row in db["DB_SklTreetoAmr"]:
         armor_skills[row["Amr_ID"]].append((row["SklTree_ID"], row["Pt"]))
 
-    # Armor using coins as materials. Coins named after monsters are arena coins; others are event quest rewards.
-    arena_coins = {"푸루푸루", "가라라", "레우스", "케차", "가노스", "브라키", "게료스", "도스",
-                   "가루루가", "간킨", "레기오스", "카브라", "바바", "혼즈", "할아버지"}
-    coin_flag = {}
-    for row in db["ID_Itm_Name"]:
-        ko = row["Itm_Name_4"] or ""
-        if ko.endswith("코인"):
-            coin_flag[row["Itm_ID"]] = 1 if ko[:-2].strip() in arena_coins else 2
+    # Armor using coins as materials, told apart by item id (the names change with the Korean patch: 'Purupuru no Coin'
+    # broke the old Korean name match, and two English names do not end in 'Coin'). Arena coins: the 14 monster coins
+    # 2062-2075 and the Grandpaw coin 2815. Event (collaboration) coins: the rest.
+    arena_coins = set(range(2062, 2076)) | {2815}
+    event_coins = {2808, 2812, 2817, 2818, 2824, 2829, 2835, 2838, 2851, 2853}
+    coin_flag = {i: 1 for i in arena_coins} | {i: 2 for i in event_coins}
     armor_flags = defaultdict(int)
     for row in db["DB_ItmtoAmr"]:
         armor_flags[row["Amr_ID"]] |= coin_flag.get(row["Itm_ID"], 0)

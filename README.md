@@ -59,7 +59,7 @@ mods/
 
 ### Opening the simulator
 
-Load a character, open the in-game menu with the + button and go to **Hunter's Notes**. Choose **Skill Simulator** at the bottom of the list.
+Load a character and open the in-game menu with the + button. In villages and the Gathering Hub, **Skill Simulator** is on page 3 of the menu. During quests it is not in the menu; use the **Open** button in the Forge settings.
 
 The **Open** button in the Forge settings opens it too.
 

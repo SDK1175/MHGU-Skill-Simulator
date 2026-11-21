@@ -58,6 +58,22 @@ cp "$ROOT/LICENSE" "$OUT/skill-simulator/LICENSE.txt"
 cp "$ROOT/THIRD_PARTY_NOTICES.md" "$OUT/skill-simulator/"
 echo "설치 폴더: $ROOT/dist/MHGU-Skill-Simulator"
 
+# Release zip: dist/MHGU-Skill-Simulator_v<version>.zip holding the MHGU-Skill-Simulator folder (the version is plugin/Cargo.toml's)
+VERSION="$(sed -n 's/^version = "\(.*\)"$/\1/p' Cargo.toml | head -1)"
+ZIP="$ROOT/dist/MHGU-Skill-Simulator_v$VERSION.zip"
+rm -f "$ZIP"
+py -3.10 - "$ROOT/dist" "$ZIP" <<'EOF'
+import sys, zipfile
+from pathlib import Path
+dist, out = Path(sys.argv[1]), Path(sys.argv[2])
+src = dist / 'MHGU-Skill-Simulator'
+with zipfile.ZipFile(out, 'w', zipfile.ZIP_DEFLATED) as z:
+    for p in sorted(src.rglob('*')):
+        if p.is_file():
+            z.write(p, p.relative_to(dist).as_posix())
+EOF
+echo "배포 zip: $ZIP"
+
 # Installs to MODS_DIR (Recomp) and RYUJINX_MODS_DIR (Ryujinx) from tools/local.sh. NO_INSTALL=1 to skip.
 install_to() {
   local dir="$1"
