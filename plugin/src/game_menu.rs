@@ -58,16 +58,37 @@ unsafe fn rh(p: u32) -> u16 {
     unsafe { core::ptr::read_unaligned(p as *const u16) }
 }
 
+/// Where 1.4.0's data at base + `offset` is in the running game. MHXX Recomp (a port of Monster Hunter XX that runs
+/// MHGU plugins) has the game's data elsewhere and says where (`mhxx_gu_data`, 0 for an offset it doesn't know);
+/// everywhere else it is base + offset.
+fn gu_data(base: u32, offset: u32) -> u32 {
+    #[cfg(target_arch = "arm")]
+    if crate::input::is_recomp() {
+        unsafe extern "C" {
+            fn mhxx_gu_data(offset: u32) -> u32;
+        }
+        // (MHGU Recomp lacks the import: it returns 0 there, and a warning is logged once)
+        let a = unsafe { mhxx_gu_data(offset) };
+        if a != 0 {
+            return a;
+        }
+    }
+    base.wrapping_add(offset)
+}
+
 /// Some(true) village / gathering hall menu, Some(false) field menu, None anything else
 fn menu_kind(owner: u32) -> Option<bool> {
     let base = BASE.load(Ordering::Relaxed);
     if !valid(owner) {
         return None;
     }
-    match unsafe { rd(owner) }.wrapping_sub(base) {
-        LOBBY_VTABLE => Some(true),
-        QUEST_VTABLE => Some(false),
-        _ => None,
+    let vtable = unsafe { rd(owner) };
+    if vtable == gu_data(base, LOBBY_VTABLE) {
+        Some(true)
+    } else if vtable == gu_data(base, QUEST_VTABLE) {
+        Some(false)
+    } else {
+        None
     }
 }
 /// Our top index in this menu, if it is a village / hall menu that has been set up (none in the field menu)
