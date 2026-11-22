@@ -28,6 +28,27 @@ cargo +nightly build --release --target armv7a-none-eabi-lld.json
 mkdir -p "$ROOT/dist"
 python3 "$ROOT/tools/elf_to_nro.py" target/armv7a-none-eabi-lld/release/libskill_simulator.so "$ROOT/dist/skill_simulator.nro"
 ls -la "$ROOT/dist/skill_simulator.nro"
+# The release zip (dist/), as the original's layout: refused if the plugin holds a folder of this PC
+VERSION="$(grep -m1 '^version' "$ROOT/plugin/Cargo.toml" | cut -d'"' -f2)-mhxx"
+python3 - "$ROOT" "$VERSION" <<'PY'
+import os, sys, zipfile
+from pathlib import Path
+root, version = Path(sys.argv[1]), sys.argv[2]
+nro = (root / 'dist' / 'skill_simulator.nro').read_bytes()
+marks = [b'\\Users\\', b'/Users/', b'/home/', b'C:/Users', str(root).encode(), root.as_posix().encode()]
+marks += [os.environ[v].encode() for v in ('USERNAME', 'USER') if os.environ.get(v)]
+if any(len(m) > 2 and m in nro for m in marks):
+    sys.exit('STOP: the plugin holds paths of this PC: not packaged')
+out = root / 'dist' / f'MHGU-Skill-Simulator_v{version}.zip'
+base = 'MHGU-Skill-Simulator/romfs/nativeNX/plugins/'
+with zipfile.ZipFile(out, 'w', zipfile.ZIP_DEFLATED) as z:
+    z.writestr(base + 'skill_simulator.nro', nro)
+    for f in sorted((root / 'plugin' / 'assets').iterdir()):
+        z.write(f, base + 'skill-simulator/' + f.name)
+    z.write(root / 'LICENSE', base + 'skill-simulator/LICENSE.txt')
+    z.write(root / 'THIRD_PARTY_NOTICES.md', base + 'skill-simulator/THIRD_PARTY_NOTICES.md')
+print(out, out.stat().st_size, 'bytes')
+PY
 DEST="$MODS/MHGU-Skill-Simulator/romfs/nativeNX/plugins"
 if [ -d "$MODS" ]; then
   mkdir -p "$DEST/skill-simulator"
