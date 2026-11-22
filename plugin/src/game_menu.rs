@@ -124,6 +124,44 @@ static DESCS: [&core::ffi::CStr; 9] = [
     c"Busca conjuntos de armadura que\nactiven las habilidades deseadas.",
 ];
 
+/// MHXX Recomp with the Korean patch of MHXX: that patch draws Hangul over kanji glyphs, so the game font has no Hangul
+/// code points and the menu's text holds kanji. The port turns Hangul into the patch's codes (`mhxx_hangul_encode`,
+/// 0 without the patch's font); our name and description are put in those then.
+struct Buf<const N: usize>(core::cell::UnsafeCell<[u8; N]>);
+// (written once, on the game thread, before the game is given a pointer into it)
+unsafe impl<const N: usize> Sync for Buf<N> {}
+impl<const N: usize> Buf<N> {
+    fn get(&self) -> *mut [u8; N] {
+        self.0.get()
+    }
+}
+static PATCH_LABEL: Buf<96> = Buf(core::cell::UnsafeCell::new([0; 96]));
+static PATCH_DESC: Buf<192> = Buf(core::cell::UnsafeCell::new([0; 192]));
+/// 0 not tried, 1 the patch's codes in PATCH_*, 2 no
+static PATCH: AtomicU32 = AtomicU32::new(0);
+fn patch_text() -> bool {
+    match PATCH.load(Ordering::Relaxed) {
+        1 => return true,
+        2 => return false,
+        _ => {}
+    }
+    let mut ok = false;
+    #[cfg(target_arch = "arm")]
+    if crate::input::is_recomp() {
+        unsafe extern "C" {
+            fn mhxx_hangul_encode(text: *const u8, out: *mut u8, size: u32) -> u32;
+        }
+        unsafe {
+            let label = &mut *PATCH_LABEL.get();
+            let desc = &mut *PATCH_DESC.get();
+            ok = mhxx_hangul_encode(LABELS[4].as_ptr().cast(), label.as_mut_ptr(), label.len() as u32) != 0
+                && mhxx_hangul_encode(DESCS[4].as_ptr().cast(), desc.as_mut_ptr(), desc.len() as u32) != 0;
+        }
+    }
+    PATCH.store(if ok { 1 } else { 2 }, Ordering::Relaxed);
+    ok
+}
+
 /// Pick the language from the characters of the menu text the game shows now. The Korean patch replaces the English slot with Korean,
 /// so look at the real text rather than the game language setting (to avoid characters missing from the game font).
 /// For Latin text, follow the plugin language (when it is a Latin-script one).
@@ -274,7 +312,8 @@ fn after_fill(this: u32) {
         let e = names + idx * 8;
         // Selectable like Hunter's Notes (dimmed where the game dims it)
         core::ptr::write(e as *mut u8, rb(names + NOTES * 8));
-        core::ptr::write_unaligned((e + 4) as *mut u32, LABELS[lang].as_ptr() as u32);
+        let label = if patch_text() { (*PATCH_LABEL.get()).as_ptr() as u32 } else { LABELS[lang].as_ptr() as u32 };
+        core::ptr::write_unaligned((e + 4) as *mut u32, label);
         // Description: message file 9, our id (the message read hook returns our text)
         let d = descs + idx * 12;
         core::ptr::write((d + 4) as *mut u8, 0);
@@ -322,6 +361,9 @@ fn pick_town(this: u32, idx: u32) -> u32 {
 #[forge::hook(offset = 0x55bac0)]
 fn message(mgr: u32, kind: u32, file: u32, id: u32) -> u32 {
     if kind == 0 && file == MSG_FILE && id == DESC_ID {
+        if PATCH.load(Ordering::Relaxed) == 1 {
+            return unsafe { (*PATCH_DESC.get()).as_ptr() as u32 };
+        }
         return DESCS[LANG.load(Ordering::Relaxed) as usize % 9].as_ptr() as u32;
     }
     original!(mgr, kind, file, id)
@@ -347,5 +389,8 @@ pub fn update() {
             && valid(rd(owner + 0xa8))
             && rb(rd(owner + 0xa8) + idx * 8) == 1 // dimmed (not selectable): the game handles A as 'cannot select'
     });
-    HOT.store(hot, Ordering::Release);
+    if HOT.swap(hot, Ordering::Release) != hot && LOG_HOT.fetch_add(1, Ordering::Relaxed) < 6 {
+        info!("[skill-sim] start menu: cursor {} our entry", if hot { "on" } else { "off" });
+    }
 }
+static LOG_HOT: AtomicU32 = AtomicU32::new(0);

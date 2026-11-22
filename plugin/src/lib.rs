@@ -413,8 +413,12 @@ pub extern "C" fn forge_onUpdate(_dt: f32) {
             p.app.open = false;
         }
         // Open from the game menu's 'Skill Simulator' entry (or the mod menu host's panel)
-        if crate::game_menu::OPEN_REQUEST.swap(false, Ordering::AcqRel) && playing && input_ready {
-            p.app.open = true;
+        if crate::game_menu::OPEN_REQUEST.swap(false, Ordering::AcqRel) {
+            if playing && input_ready {
+                p.app.open = true;
+            } else {
+                info!("[skill-sim] open asked, not opened: playing {playing}, input ready {input_ready}");
+            }
         }
         mod_menu::set_ready(playing && input_ready && !p.app.open);
         // Inventory (equipment box, charms, equipped, items): re-read every time the window opens (it cannot change in game while the window is open)

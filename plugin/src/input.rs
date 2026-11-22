@@ -165,6 +165,7 @@ unsafe fn filter(index: usize, state: u32, id: u32) {
     let menu_pick = !owned && !overlay && crate::game_menu::HOT.load(Ordering::Acquire) && raw & 1 != 0;
     if menu_pick && pressed & bit(Button::A) != 0 {
         crate::game_menu::OPEN_REQUEST.store(true, Ordering::Release);
+        info!("[skill-sim] start menu: A on our entry (controller)");
     }
     if owned {
         // Recomp reads the menu word (with key remapping). Only +/- come from HID.
