@@ -5,6 +5,9 @@ static SLOT: AtomicU32 = AtomicU32::new(u32::MAX);
 static TITLE: AtomicBool = AtomicBool::new(true);
 static QUIET: AtomicU32 = AtomicU32::new(0);
 static TITLE_CALLS: AtomicU32 = AtomicU32::new(0);
+/// The title screen's state at its last update, and when the save was loaded (u32::MAX: none loaded since)
+static LAST_TITLE_STATE: AtomicU32 = AtomicU32::new(0);
+static LOAD_TITLE_STATE: AtomicU32 = AtomicU32::new(u32::MAX);
 static LOGGED: AtomicU32 = AtomicU32::new(0); // (the loader's state changes logged: MHXX Recomp's may differ)
 
 fn valid(p: u32) -> bool {
@@ -34,6 +37,7 @@ fn select_character(owner: u32) -> u32 {
             if let Some(slot) = completed_load(before, after, cancelled, slot) {
                 SLOT.store(slot, Ordering::Release);
                 QUIET.store(0, Ordering::Release);
+                LOAD_TITLE_STATE.store(LAST_TITLE_STATE.load(Ordering::Relaxed), Ordering::Relaxed);
             }
         }
     }
@@ -61,8 +65,16 @@ fn title_update(owner: u32) -> u32 {
         info!("[skill-sim] title update #{n}: state {state:#x}, slot {}", SLOT.load(Ordering::Relaxed) as i32);
     }
     // The main menu and logos are states before character selection
-    if valid(owner) && unsafe { core::ptr::read((owner + 4) as *const u8) } <= 0x11 {
-        SLOT.store(u32::MAX, Ordering::Release);
+    // MHXX Recomp: the title's state goes on from where it was at the load (0x0d) to 0x11 while the village loads, so
+    // a state at or above the one seen when the save was loaded is that same title still finishing, not a return to it
+    // (which starts again from 0)
+    if valid(owner) {
+        let state = unsafe { core::ptr::read((owner + 4) as *const u8) } as u32;
+        LAST_TITLE_STATE.store(state, Ordering::Relaxed);
+        if state <= 0x11 && state < LOAD_TITLE_STATE.load(Ordering::Relaxed) {
+            SLOT.store(u32::MAX, Ordering::Release);
+            LOAD_TITLE_STATE.store(u32::MAX, Ordering::Relaxed);
+        }
     }
     original!(owner)
 }
