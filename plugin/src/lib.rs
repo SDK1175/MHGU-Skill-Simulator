@@ -417,7 +417,8 @@ pub extern "C" fn forge_onUpdate(_dt: f32) {
             if playing && input_ready {
                 p.app.open = true;
             } else {
-                info!("[skill-sim] open asked, not opened: playing {playing}, input ready {input_ready}");
+                let (slot, quiet) = session::debug();
+                info!("[skill-sim] open asked, not opened: playing {playing}, input ready {input_ready} (slot {slot}, {quiet} frames since the title)");
             }
         }
         mod_menu::set_ready(playing && input_ready && !p.app.open);

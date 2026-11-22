@@ -4,6 +4,7 @@ use core::sync::atomic::{AtomicBool, AtomicU32, Ordering};
 static SLOT: AtomicU32 = AtomicU32::new(u32::MAX);
 static TITLE: AtomicBool = AtomicBool::new(true);
 static QUIET: AtomicU32 = AtomicU32::new(0);
+static TITLE_CALLS: AtomicU32 = AtomicU32::new(0);
 static LOGGED: AtomicU32 = AtomicU32::new(0); // (the loader's state changes logged: MHXX Recomp's may differ)
 
 fn valid(p: u32) -> bool {
@@ -54,6 +55,11 @@ fn write_character(owner: u32, slot: u32) -> u32 {
 #[forge::hook(offset = 0x67b544)]
 fn title_update(owner: u32) -> u32 {
     TITLE.store(true, Ordering::Release);
+    let n = TITLE_CALLS.fetch_add(1, Ordering::Relaxed);
+    if n < 4 || n.is_power_of_two() {
+        let state = if valid(owner) { unsafe { core::ptr::read((owner + 4) as *const u8) } } else { 0xff };
+        info!("[skill-sim] title update #{n}: state {state:#x}, slot {}", SLOT.load(Ordering::Relaxed) as i32);
+    }
     // The main menu and logos are states before character selection
     if valid(owner) && unsafe { core::ptr::read((owner + 4) as *const u8) } <= 0x11 {
         SLOT.store(u32::MAX, Ordering::Release);
@@ -85,4 +91,9 @@ pub fn install(base: u32) -> bool {
     forge::install_hook!(base, write_character);
     forge::install_hook!(base, title_update);
     true
+}
+
+/// (for the log) the slot, the frames since the title screen last ran
+pub fn debug() -> (i32, u32) {
+    (SLOT.load(Ordering::Relaxed) as i32, QUIET.load(Ordering::Relaxed))
 }
