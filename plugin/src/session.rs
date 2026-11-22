@@ -4,6 +4,7 @@ use core::sync::atomic::{AtomicBool, AtomicU32, Ordering};
 static SLOT: AtomicU32 = AtomicU32::new(u32::MAX);
 static TITLE: AtomicBool = AtomicBool::new(true);
 static QUIET: AtomicU32 = AtomicU32::new(0);
+static LOGGED: AtomicU32 = AtomicU32::new(0); // (the loader's state changes logged: MHXX Recomp's may differ)
 
 fn valid(p: u32) -> bool {
     (0x10000..0xeffff000).contains(&p)
@@ -26,6 +27,9 @@ fn select_character(owner: u32) -> u32 {
             let after = rd(owner + 0x3c);
             let slot = rd(owner + 0x40);
             let cancelled = core::ptr::read((owner + 0x6b) as *const u8) != 0;
+            if before != after && LOGGED.fetch_add(1, Ordering::Relaxed) < 24 {
+                info!("[skill-sim] save loader: state {before:#x} -> {after:#x}, slot {slot}, cancelled {cancelled}");
+            }
             if let Some(slot) = completed_load(before, after, cancelled, slot) {
                 SLOT.store(slot, Ordering::Release);
                 QUIET.store(0, Ordering::Release);
@@ -38,6 +42,9 @@ fn select_character(owner: u32) -> u32 {
 #[forge::hook(offset = 0x3e11a8)]
 fn write_character(owner: u32, slot: u32) -> u32 {
     let result = original!(owner, slot);
+    if LOGGED.fetch_add(1, Ordering::Relaxed) < 24 {
+        info!("[skill-sim] save written: slot {slot}");
+    }
     if slot < 3 {
         SLOT.store(slot, Ordering::Release);
     }
